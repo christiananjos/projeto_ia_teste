@@ -336,6 +336,16 @@
   },
   {
     "source": "07 - Integrações/Provedor de Identidade JWT",
+    "target": "13 - Segurança/Auditoria 2026-10-16",
+    "resolved": true
+  },
+  {
+    "source": "07 - Integrações/Provedor de Identidade JWT",
+    "target": "14 - Planejamento/Rejeitar chaves JWT conhecidas no startup",
+    "resolved": true
+  },
+  {
+    "source": "07 - Integrações/Provedor de Identidade JWT",
     "target": "10 - ADR/ADR-013 Estratégia de testes com Testcontainers",
     "resolved": true
   },
@@ -905,6 +915,51 @@
     "resolved": true
   },
   {
+    "source": "13 - Segurança/Auditoria 2026-10-16",
+    "target": "05 - Banco de Dados/Modelo de Dados do Catálogo",
+    "resolved": true
+  },
+  {
+    "source": "13 - Segurança/Auditoria 2026-10-16",
+    "target": "06 - Arquitetura/Persistência EF Core",
+    "resolved": true
+  },
+  {
+    "source": "13 - Segurança/Auditoria 2026-10-16",
+    "target": "04 - APIs/API de Categorias",
+    "resolved": true
+  },
+  {
+    "source": "13 - Segurança/Auditoria 2026-10-16",
+    "target": "04 - APIs/API de Produtos",
+    "resolved": true
+  },
+  {
+    "source": "13 - Segurança/Auditoria 2026-10-16",
+    "target": "14 - Planejamento/Rejeitar chaves JWT conhecidas no startup",
+    "resolved": true
+  },
+  {
+    "source": "13 - Segurança/Auditoria 2026-10-16",
+    "target": "07 - Integrações/Provedor de Identidade JWT",
+    "resolved": true
+  },
+  {
+    "source": "13 - Segurança/Auditoria 2026-10-16",
+    "target": "10 - ADR/ADR-010 Autenticação JWT com chave simétrica",
+    "resolved": true
+  },
+  {
+    "source": "13 - Segurança/Auditoria 2026-10-16",
+    "target": "06 - Arquitetura/Tratamento de Erros e ProblemDetails",
+    "resolved": true
+  },
+  {
+    "source": "13 - Segurança/Auditoria 2026-10-16",
+    "target": "14 - Planejamento/Rate limit atrás de proxy e valor definitivo",
+    "resolved": true
+  },
+  {
     "source": "14 - Planejamento/Auditoria de produtos removidos",
     "target": "10 - ADR/ADR-001 Remoção de categoria com produtos removidos",
     "resolved": true
@@ -1042,6 +1097,26 @@
   {
     "source": "14 - Planejamento/Rate limit atrás de proxy e valor definitivo",
     "target": "10 - ADR/ADR-011 Rate limiting por IP",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Rejeitar chaves JWT conhecidas no startup",
+    "target": "13 - Segurança/Auditoria 2026-10-16",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Rejeitar chaves JWT conhecidas no startup",
+    "target": "07 - Integrações/Provedor de Identidade JWT",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Rejeitar chaves JWT conhecidas no startup",
+    "target": "10 - ADR/ADR-010 Autenticação JWT com chave simétrica",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Rejeitar chaves JWT conhecidas no startup",
+    "target": "14 - Planejamento/Provedor de identidade",
     "resolved": true
   },
   {
@@ -1247,6 +1322,16 @@
   {
     "source": "Index",
     "target": "11 - Bugs Conhecidos/SKU aceita quebra de linha no final",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "13 - Segurança/Auditoria 2026-10-16",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "14 - Planejamento/Rejeitar chaves JWT conhecidas no startup",
     "resolved": true
   },
   {

@@ -266,7 +266,7 @@
     "sourceDoc": "knowledge/vault/07 - Integrações/Provedor de Identidade JWT.md",
     "heading": null,
     "order": 2,
-    "charCount": 1122,
+    "charCount": 1338,
     "file": "knowledge/embeddings/chunks/07-integracoes-provedor-de-identidade-jwt--2.md"
   },
   {
@@ -1620,6 +1620,69 @@
     "file": "knowledge/embeddings/chunks/11-bugs-conhecidos-sku-aceita-quebra-de-linha-no-final--6.md"
   },
   {
+    "chunkId": "13-seguranca-auditoria-2026-10-16--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/13 - Segurança/Auditoria 2026-10-16.md",
+    "heading": "Auditoria 2026-10-16",
+    "order": 1,
+    "charCount": 439,
+    "file": "knowledge/embeddings/chunks/13-seguranca-auditoria-2026-10-16--1.md"
+  },
+  {
+    "chunkId": "13-seguranca-auditoria-2026-10-16--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/13 - Segurança/Auditoria 2026-10-16.md",
+    "heading": "Mapeamento das cinco categorias para esta stack",
+    "order": 2,
+    "charCount": 820,
+    "file": "knowledge/embeddings/chunks/13-seguranca-auditoria-2026-10-16--2.md"
+  },
+  {
+    "chunkId": "13-seguranca-auditoria-2026-10-16--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/13 - Segurança/Auditoria 2026-10-16.md",
+    "heading": "Achados abertos",
+    "order": 3,
+    "charCount": 360,
+    "file": "knowledge/embeddings/chunks/13-seguranca-auditoria-2026-10-16--3.md"
+  },
+  {
+    "chunkId": "13-seguranca-auditoria-2026-10-16--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/13 - Segurança/Auditoria 2026-10-16.md",
+    "heading": "Informativos (sem ação)",
+    "order": 4,
+    "charCount": 232,
+    "file": "knowledge/embeddings/chunks/13-seguranca-auditoria-2026-10-16--4.md"
+  },
+  {
+    "chunkId": "13-seguranca-auditoria-2026-10-16--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/13 - Segurança/Auditoria 2026-10-16.md",
+    "heading": "Pontos fortes confirmados",
+    "order": 5,
+    "charCount": 385,
+    "file": "knowledge/embeddings/chunks/13-seguranca-auditoria-2026-10-16--5.md"
+  },
+  {
+    "chunkId": "13-seguranca-auditoria-2026-10-16--6",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/13 - Segurança/Auditoria 2026-10-16.md",
+    "heading": "Decisões",
+    "order": 6,
+    "charCount": 241,
+    "file": "knowledge/embeddings/chunks/13-seguranca-auditoria-2026-10-16--6.md"
+  },
+  {
+    "chunkId": "13-seguranca-auditoria-2026-10-16--7",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/13 - Segurança/Auditoria 2026-10-16.md",
+    "heading": "Para a próxima auditoria",
+    "order": 7,
+    "charCount": 227,
+    "file": "knowledge/embeddings/chunks/13-seguranca-auditoria-2026-10-16--7.md"
+  },
+  {
     "chunkId": "14-planejamento-auditoria-de-produtos-removidos--1",
     "tipo": "vault",
     "sourceDoc": "knowledge/vault/14 - Planejamento/Auditoria de produtos removidos.md",
@@ -1818,6 +1881,33 @@
     "file": "knowledge/embeddings/chunks/14-planejamento-rate-limit-atras-de-proxy-e-valor-definitivo--3.md"
   },
   {
+    "chunkId": "14-planejamento-rejeitar-chaves-jwt-conhecidas-no-startup--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Rejeitar chaves JWT conhecidas no startup.md",
+    "heading": "Rejeitar chaves JWT conhecidas no startup",
+    "order": 1,
+    "charCount": 206,
+    "file": "knowledge/embeddings/chunks/14-planejamento-rejeitar-chaves-jwt-conhecidas-no-startup--1.md"
+  },
+  {
+    "chunkId": "14-planejamento-rejeitar-chaves-jwt-conhecidas-no-startup--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Rejeitar chaves JWT conhecidas no startup.md",
+    "heading": "Em aberto",
+    "order": 2,
+    "charCount": 563,
+    "file": "knowledge/embeddings/chunks/14-planejamento-rejeitar-chaves-jwt-conhecidas-no-startup--2.md"
+  },
+  {
+    "chunkId": "14-planejamento-rejeitar-chaves-jwt-conhecidas-no-startup--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Rejeitar chaves JWT conhecidas no startup.md",
+    "heading": "Relacionado",
+    "order": 3,
+    "charCount": 128,
+    "file": "knowledge/embeddings/chunks/14-planejamento-rejeitar-chaves-jwt-conhecidas-no-startup--3.md"
+  },
+  {
     "chunkId": "14-planejamento-testes-de-integracao-com-sql-server-pendentes--1",
     "tipo": "vault",
     "sourceDoc": "knowledge/vault/14 - Planejamento/Testes de integração com SQL Server pendentes.md",
@@ -1938,9 +2028,18 @@
     "chunkId": "index--9",
     "tipo": "vault",
     "sourceDoc": "knowledge/vault/Index.md",
-    "heading": "14 - Planejamento",
+    "heading": "13 - Segurança",
     "order": 9,
-    "charCount": 397,
+    "charCount": 108,
     "file": "knowledge/embeddings/chunks/index--9.md"
+  },
+  {
+    "chunkId": "index--10",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/Index.md",
+    "heading": "14 - Planejamento",
+    "order": 10,
+    "charCount": 445,
+    "file": "knowledge/embeddings/chunks/index--10.md"
   }
 ]

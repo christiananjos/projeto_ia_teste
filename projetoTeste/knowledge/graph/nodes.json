@@ -216,6 +216,12 @@
     "domain": "11 - Bugs Conhecidos"
   },
   {
+    "id": "13 - Segurança/Auditoria 2026-10-16",
+    "title": "Auditoria 2026-10-16",
+    "path": "13 - Segurança/Auditoria 2026-10-16.md",
+    "domain": "13 - Segurança"
+  },
+  {
     "id": "14 - Planejamento/Auditoria de produtos removidos",
     "title": "Auditoria de produtos removidos",
     "path": "14 - Planejamento/Auditoria de produtos removidos.md",
@@ -261,6 +267,12 @@
     "id": "14 - Planejamento/Rate limit atrás de proxy e valor definitivo",
     "title": "Rate limit atrás de proxy e valor definitivo",
     "path": "14 - Planejamento/Rate limit atrás de proxy e valor definitivo.md",
+    "domain": "14 - Planejamento"
+  },
+  {
+    "id": "14 - Planejamento/Rejeitar chaves JWT conhecidas no startup",
+    "title": "Rejeitar chaves JWT conhecidas no startup",
+    "path": "14 - Planejamento/Rejeitar chaves JWT conhecidas no startup.md",
     "domain": "14 - Planejamento"
   },
   {

@@ -16,4 +16,5 @@ tags: [seguranca, jwt, autenticacao]
 - Policies: `Leitura` (usuário autenticado) para os GET e `Escrita` (role `Admin`) para POST, PUT, PATCH e DELETE. A `FallbackPolicy` exige usuário autenticado.
 - As opções são validadas no startup (`ValidateDataAnnotations` + checagem de 32 bytes + `ValidateOnStart`): sem `Issuer`, `Audience` ou chave válida, a API não sobe. Como o `appsettings.json` traz `Issuer` vazio, em dev é preciso configurá-lo por user-secrets (`UserSecretsId` já está no `Catalogo.Api.csproj`).
 - OpenAPI (`/openapi/v1.json`) só existe em Development, é anônimo e documenta o esquema Bearer.
+- A validação de startup só confere o tamanho da chave e ainda não rejeita chaves conhecidas, como a de teste. É o achado baixo da [[Auditoria 2026-10-16]], pendente em [[Rejeitar chaves JWT conhecidas no startup]].
 - Nos testes de integração, o próprio teste gera o token com a chave de teste ([[ADR-013 Estratégia de testes com Testcontainers]]).

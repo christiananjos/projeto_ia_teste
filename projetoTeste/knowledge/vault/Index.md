@@ -52,7 +52,11 @@
 ## 11 - Bugs Conhecidos
 - [[SKU aceita quebra de linha no final]] (resolvido em 2026-10-16)
 
+## 13 - Segurança
+- [[Auditoria 2026-10-16]] (aprovado com ressalvas: 0 crítica/alta/média, 1 baixa aberta)
+
 ## 14 - Planejamento
+- [[Rejeitar chaves JWT conhecidas no startup]]
 - [[Implementação do Catálogo de Produtos]]
 - [[Testes de integração com SQL Server pendentes]]
 - [[Confirmar decisões que alteram comportamento]]

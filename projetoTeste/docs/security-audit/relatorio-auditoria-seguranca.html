@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Relatório de Auditoria de Segurança — API de Catálogo de Produtos</title>
+<style>
+body { font-family: Segoe UI, Arial, sans-serif; max-width: 1100px; margin: 24px auto; padding: 0 16px; color: #111; line-height: 1.45; }
+h1 { font-size: 1.6em; } h2 { border-bottom: 2px solid #ddd; padding-bottom: 4px; margin-top: 32px; }
+table { border-collapse: collapse; width: 100%; margin: 8px 0 16px; font-size: .92em; }
+th, td { border: 1px solid #ccc; padding: 6px 8px; text-align: left; vertical-align: top; }
+th { background: #f3f4f6; }
+code { background: #f3f4f6; padding: 1px 4px; border-radius: 3px; }
+pre { background: #f8f8f8; border: 1px solid #ddd; padding: 12px; white-space: pre-wrap; font-size: .88em; }
+.chip { display: inline-block; color: #fff; padding: 1px 8px; border-radius: 10px; font-size: .85em; font-weight: 600; }
+.critica { background: #B91C1C; } .alta { background: #EA580C; } .media { background: #D97706; }
+.baixa { background: #2563EB; } .info { background: #6B7280; } .forte { background: #059669; }
+</style>
+</head>
+<body>
+
+<h1>Relatório de Auditoria de Segurança — API de Catálogo de Produtos</h1>
+<p><strong>Data:</strong> 2026-10-16 &nbsp;|&nbsp; <strong>Auditor:</strong> 06-security-scan (pipeline SDD) &nbsp;|&nbsp; <strong>Status do gate:</strong> APROVADO COM RESSALVAS</p>
+<p><strong>Escopo:</strong> projeto inteiro versionado — <code>src/API</code>, <code>src/Application</code>, <code>src/Domain</code>, <code>src/Infrastructure</code>, <code>src/Tests</code>, <code>appsettings*.json</code>, <code>launchSettings.json</code>, <code>.mcp.json</code>, <code>.gitignore</code>, <code>docs/</code>, <code>README.md</code> e o histórico do Git (9 commits). Não há Dockerfile, docker-compose, <code>.github/workflows</code>, Helm ou Terraform no repositório. <code>bin/</code> e <code>obj/</code> foram ignorados. Todo o código foi gerado nesta rodada (não há código legado).</p>
+<p><strong>Nota metodológica:</strong> stack .NET 10, ASP.NET Core Minimal APIs, EF Core 10 + SQL Server, JWT HS256 validado pela própria API, sem frontend. (1) Isolamento: procurei filtro por dono/tenant e global query filters do EF; (2) Permissão no navegador: não há frontend, então conferi a autorização do servidor em cada endpoint; (3) IDOR: li os 11 handlers e os casos de uso, repositórios e consultas que eles chamam; (4) Chaves: busquei padrões de segredo em código, configs, docs e <code>git log -p</code>, e revisei a validação de startup; (5) XSS/injeção: procurei SQL bruto (<code>FromSqlRaw</code>/<code>ExecuteSqlRaw</code>) e respostas HTML. A auditoria foi feita lendo o código, sem scanner externo.</p>
+
+<h2>Resumo</h2>
+<table>
+<tr><th>Severidade</th><th>Quantidade</th></tr>
+<tr><td><span class="chip critica">Crítica</span></td><td>0</td></tr>
+<tr><td><span class="chip alta">Alta</span></td><td>0</td></tr>
+<tr><td><span class="chip media">Média</span></td><td>0</td></tr>
+<tr><td><span class="chip baixa">Baixa</span></td><td>1</td></tr>
+<tr><td><span class="chip info">Informativa</span></td><td>2</td></tr>
+<tr><td><span class="chip forte">Pontos fortes</span></td><td>9</td></tr>
+</table>
+<p>Nenhuma correção foi aplicada: não há achado Critical/High.</p>
+
+<h2>Pontos fortes (verificados)</h2>
+<ul>
+<li><span class="chip forte">OK</span> <code>src/API/Configuracao/AutenticacaoExtensions.cs:52-55</code>: policy <code>Escrita</code> com <code>RequireRole("Admin")</code>, policy <code>Leitura</code> com usuário autenticado e <code>FallbackPolicy</code> que exige autenticação. Endpoint sem policy explícita não fica anônimo.</li>
+<li><span class="chip forte">OK</span> <code>src/API/Endpoints/CategoriaEndpoints.cs:19-64</code> e <code>ProdutoEndpoints.cs:19-75</code>: os 11 endpoints têm <code>RequireAuthorization</code>. Os 4 GET usam <code>Leitura</code> e os 7 de escrita (POST, PUT, PATCH, DELETE) usam <code>Escrita</code>. Os testes <code>AutenticacaoERateLimitTests</code> confirmam 401 nos 11 e 403 nos 7.</li>
+<li><span class="chip forte">OK</span> <code>AutenticacaoExtensions.cs:35-49</code>: o token é validado por issuer, audience, lifetime e chave, com <code>ValidAlgorithms = [HmacSha256]</code> (bloqueia <code>alg:none</code> e troca de algoritmo), <code>ClockSkew</code> de 30 s e <code>MapInboundClaims = false</code>.</li>
+<li><span class="chip forte">OK</span> <code>AutenticacaoExtensions.cs:20-26</code> e <code>JwtOptions.cs</code>: a API não sobe sem chave, issuer ou audience, nem com chave menor que 32 bytes. O placeholder da documentação (<code>&lt;chave com pelo menos 32 bytes&gt;</code>, 31 bytes) é rejeitado.</li>
+<li><span class="chip forte">OK</span> <code>src/API/appsettings*.json</code>: não há segredos. A chave JWT e a connection string vêm de user-secrets ou de variável de ambiente. <code>Infrastructure/DependencyInjection.cs:28-33</code> falha no startup se a connection string não estiver configurada.</li>
+<li><span class="chip forte">OK</span> Histórico do Git: <code>git log -p -S ChaveAssinatura</code>, busca por <code>password</code>/<code>pwd=</code>, padrões de token (<code>ghp_</code>, <code>AKIA</code>, <code>eyJhbGci</code>) e <code>git log --diff-filter=D</code> não acharam nenhum segredo real nem arquivo <code>.env</code> removido. <code>.env</code> está no <code>.gitignore</code>, e o <code>.mcp.json</code> usa <code>${GITHUB_TOKEN}</code>.</li>
+<li><span class="chip forte">OK</span> <code>src/Infrastructure/Consultas/*.cs</code> e <code>Repositorios/*.cs</code>: todo acesso a dados passa por LINQ do EF Core, parametrizado. Não existe <code>FromSqlRaw</code>, <code>ExecuteSqlRaw</code> nem SQL concatenado. O filtro <code>Contains</code> vira <code>LIKE</code> parametrizado (coberto por <code>ModeloEfTests.FiltroPorNome_GeraLikeParametrizadoEAplicaOQueryFilter</code>).</li>
+<li><span class="chip forte">OK</span> <code>src/API/Http/ExcecaoGlobalHandler.cs:31-42</code>: exceção inesperada vira 500 genérico, sem stack trace e sem mensagem interna (teste <code>ExcecaoInesperada_Retorna500SemVazarDetalhesELogaError</code>, que usa uma exceção com connection string na mensagem). A API só responde JSON/ProblemDetails e não gera HTML.</li>
+<li><span class="chip forte">OK</span> <code>Program.cs:27-40</code>: HSTS e redirecionamento HTTPS fora de Development, OpenAPI exposto só em Development e rate limit global por IP aplicado antes da autenticação.</li>
+</ul>
+
+<h2>Pontos fracos (riscos centrais)</h2>
+<ul>
+<li>A validação de startup da chave JWT só verifica o tamanho. Uma chave conhecida e versionada (a chave de teste em <code>TokenJwt.cs</code>) seria aceita se alguém a configurasse em produção, e qualquer pessoa com acesso ao repositório conseguiria forjar tokens <code>Admin</code>.</li>
+<li>Fora das cinco categorias e já registrado em <code>14 - Planejamento</code>: atrás de um proxy reverso, o rate limit por <code>RemoteIpAddress</code> passaria a valer para todos os clientes juntos, porque <code>ForwardedHeaders</code> não está configurado.</li>
+</ul>
+
+<h2>Achados por categoria</h2>
+
+<h3>1. Banco sem tranca (isolamento de inquilino/dono)</h3>
+<table>
+<tr><th>Severidade</th><th>Arquivo:linha</th><th>Descrição</th></tr>
+<tr><td><span class="chip forte">N/A</span></td><td>docs/SPEC.md:140; src/Domain/*</td><td>Não se aplica. O catálogo é único e global: a spec não define dono, tenant nem organização, e as entidades <code>Categoria</code>/<code>Produto</code> não têm campo de dono. O único mecanismo de restrição de leitura é o global query filter de exclusão lógica (<code>DataRemocao == null</code>, ADR-015), e ele é ignorado só em <code>CategoriaRepository.cs:33</code> (<code>IgnoreQueryFilters</code>, para apagar produtos já removidos, ADR-001). Sem furo.</td></tr>
+</table>
+
+<h3>2. Permissão definida no navegador</h3>
+<table>
+<tr><th>Severidade</th><th>Arquivo:linha</th><th>Descrição</th></tr>
+<tr><td><span class="chip forte">N/A</span></td><td>—</td><td>Não se aplica: o projeto não tem frontend. A verificação equivalente, autorização no servidor, está correta em todas as rotas sensíveis (ver Pontos fortes).</td></tr>
+</table>
+
+<h3>3. IDOR</h3>
+<table>
+<tr><th>Severidade</th><th>Arquivo:linha</th><th>Descrição</th></tr>
+<tr><td><span class="chip forte">OK</span></td><td>CategoriaEndpoints.cs:85,105,116; ProdutoEndpoints.cs:106,126,137,148</td><td>Os 7 handlers que recebem <code>{id:guid}</code> foram lidos um a um. Não há posse por usuário (o catálogo é global, ver categoria 1). O controle de acesso é por papel: ler exige estar autenticado e alterar ou remover exige <code>Admin</code>. Nenhum handler aceita ID de dono no body nem na query. Não é IDOR.</td></tr>
+</table>
+
+<h3>4. Chaves expostas (hardcode)</h3>
+<table>
+<tr><th>Severidade</th><th>Arquivo:linha</th><th>Descrição</th></tr>
+<tr><td><span class="chip baixa">Baixa</span></td><td>src/API/Configuracao/AutenticacaoExtensions.cs:20-26</td><td>A validação de startup da chave JWT aceita qualquer valor com 32 bytes ou mais, inclusive a chave de teste versionada em <code>TokenJwt.cs:15</code>. Explorável só se um operador configurar essa chave (ou outra conhecida) fora do ambiente de testes.</td></tr>
+<tr><td><span class="chip info">Info</span></td><td>src/Tests/Catalogo.IntegrationTests/Infra/TokenJwt.cs:15</td><td>Chave HS256 fixa usada só nos testes (<code>"chave-de-teste-do-catalogo-com-mais-de-32-bytes"</code>), injetada por <code>CatalogoApiFactory.cs:52</code>. Ela não é usada em runtime e é aceitável em teste. O risco está no achado acima.</td></tr>
+<tr><td><span class="chip info">Info</span></td><td>src/Infrastructure/Persistencia/CatalogoDbContextFactory.cs:12-13</td><td>Connection string padrão de design-time (LocalDB, <code>Trusted_Connection</code>). Não tem credencial e só é usada pelo <code>dotnet ef</code>. Não é segredo.</td></tr>
+</table>
+
+<h3>5. Inputs sem tratamento (XSS / injeção)</h3>
+<table>
+<tr><th>Severidade</th><th>Arquivo:linha</th><th>Descrição</th></tr>
+<tr><td><span class="chip forte">OK</span></td><td>src/API/Http/*.cs; src/Infrastructure/Consultas/*.cs</td><td>Não há frontend nem saída HTML, e-mail ou template. As respostas são JSON serializado pelo System.Text.Json, que escapa caracteres HTML por padrão. Não há SQL bruto. Os campos de texto são validados por tamanho e espaços nas pontas, e o SKU por regex. Não há biblioteca de sanitização, e ela não é necessária enquanto não houver consumo como HTML.</td></tr>
+</table>
+
+<h2>Recomendações priorizadas</h2>
+<ol>
+<li><strong>P1</strong> — Nenhuma ação obrigatória: não há Critical/High.</li>
+<li><strong>P2</strong> — Rejeitar no startup chaves JWT conhecidas (a chave de teste e placeholders) fora do ambiente de testes, e documentar a geração de uma chave aleatória (ex.: 64 bytes em base64). Ver Issue 1.</li>
+<li><strong>P3</strong> — Antes de publicar atrás de proxy, configurar <code>ForwardedHeaders</code> com proxies confiáveis (pendência já registrada em <code>14 - Planejamento/Rate limit atrás de proxy e valor definitivo</code>).</li>
+<li><strong>P3</strong> — Quando houver provedor de identidade real, considerar chave assimétrica (RS256/ES256) via JWKS, para que a API não tenha um segredo capaz de emitir tokens (ver <code>14 - Planejamento/Provedor de identidade</code>).</li>
+</ol>
+
+<h2>ISSUES PARA O GITHUB</h2>
+
+<pre>--- ISSUE 1 ---
+## [Segurança] Startup aceita chave JWT conhecida (chave de teste versionada)
+
+**Labels sugeridas:** `security`, `severity:low`
+
+### Problema
+A validação de `JwtOptions` em `src/API/Configuracao/AutenticacaoExtensions.cs` só verifica se a chave
+existe e tem pelo menos 32 bytes. Uma chave pública, versionada no repositório, passa nessa validação:
+por exemplo, a chave dos testes de integração. Se ela for configurada em um ambiente real (copiada de
+`TokenJwt.cs` para user-secrets ou variável de ambiente), qualquer pessoa com acesso ao código consegue
+assinar um JWT com `role: Admin` e executar todas as operações de escrita.
+
+### Evidência
+`src/API/Configuracao/AutenticacaoExtensions.cs:20-26`
+```csharp
+services.AddOptions&lt;JwtOptions&gt;()
+    .Bind(configuration.GetSection(JwtOptions.Secao))
+    .ValidateDataAnnotations()
+    .Validate(
+        o =&gt; o.ChaveAssinatura is not null &amp;&amp; Encoding.UTF8.GetByteCount(o.ChaveAssinatura) &gt;= JwtOptions.TamanhoMinimoChaveBytes,
+        $"Autenticacao:Jwt:ChaveAssinatura deve ter pelo menos {JwtOptions.TamanhoMinimoChaveBytes} bytes.")
+    .ValidateOnStart();
+```
+`src/Tests/Catalogo.IntegrationTests/Infra/TokenJwt.cs:15`
+```csharp
+public const string Chave = "chave-de-teste-do-catalogo-com-mais-de-32-bytes";
+```
+
+### Quando é explorável
+Só quando um operador configura uma chave conhecida fora do ambiente de testes. Hoje nenhum arquivo
+versionado define a chave de produção.
+
+### Impacto
+Forjar tokens `Admin`, ou seja, criar, alterar e remover qualquer categoria ou produto.
+
+### Sugestão de correção
+- Fora do ambiente de testes, rejeitar no startup uma lista de chaves conhecidas (a chave de teste e
+  placeholders da documentação), por exemplo com `.Validate(...)` e o `IHostEnvironment`.
+- Documentar em `docs/api/testes-api.md` a geração de uma chave aleatória
+  (ex.: `openssl rand -base64 64`).
+- Opcional: quando o provedor de identidade for definido, migrar para chave assimétrica via JWKS.
+
+### Critérios de aceite
+- [ ] Com `ASPNETCORE_ENVIRONMENT` diferente do ambiente de testes, a API não sobe usando a chave de `TokenJwt.Chave`.
+- [ ] Os testes de integração continuam subindo a API com a chave de teste.
+- [ ] Há um teste automatizado para a rejeição da chave conhecida.
+- [ ] A documentação mostra como gerar uma chave aleatória forte.
+--- FIM ISSUE 1 ---</pre>
+
+</body>
+</html>
