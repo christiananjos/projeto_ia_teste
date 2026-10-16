@@ -51,4 +51,8 @@ Produto removido logicamente responde 404 em GET, PUT, PATCH e DELETE (BR-005).
 - Query string com tipo inválido (`page=abc`, `ativo=talvez`, `categoriaId=x`) → 400.
 - Formato: `{ "itens": [], "page": 1, "pageSize": 20, "totalItens": 0, "totalPaginas": 0 }`. `totalPaginas = ceil(totalItens / pageSize)` (0 quando não há itens). Página além da última → 200 com `itens: []` e os totais reais.
 
+## Respostas confirmadas em teste (05-test-engineer, 2026-10-16)
+
+Pelo pipeline HTTP real, com a persistência substituída: 201 com `Location` e `categoriaNome`, sem `dataRemocao` no corpo; 400 `validacao` com chaves camelCase (`categoriaId`, `nome`, `sku`, `preco`, `ativo`, `ordenarPor`, `direcao`, `page`, `pageSize`), inclusive `"TEC-001\n"`/`"AB\n"` em `errors.sku`; 400 `requisicao_invalida` para `page=abc`, `ativo=talvez` e `categoriaId=x`; 422 `produto.categoria_invalida`; 409 `produto.sku_duplicado` (checagem e corrida em `UX_Produtos_Sku`) e `produto.nome_duplicado`; 404 `produto.nao_encontrado`; PUT ignora `sku`/`ativo` do corpo; PATCH 204; DELETE 204. Sem parâmetros, a listagem chega à consulta como `ListarProdutosQuery()` (1, 20, `ativo` nulo → `true` na consulta). Ordenação, filtros CI, desempate e reuso de SKU no banco real ainda não foram executados ([[Testes de integração com SQL Server pendentes]]). cURL de cada endpoint: `docs/api/testes-api.md`. Casos: [[CT BR-001 Nome do produto]], [[CT BR-002 Preço]], [[CT BR-003 SKU]], [[CT BR-004 Categoria válida]], [[CT BR-005 Exclusão lógica]], [[CT REQ-003 e REQ-004 Listagem e status]].
+
 Tabelas: [[Modelo de Dados do Catálogo]]. Relacionado: [[API de Categorias]], [[ADR-008 Unicidade case-insensitive via collation]], [[ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor]].

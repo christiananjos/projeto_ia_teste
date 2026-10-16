@@ -23,8 +23,17 @@
     "sourceDoc": "knowledge/vault/04 - APIs/API de Categorias.md",
     "heading": "Regras aplicadas (ordem de checagem)",
     "order": 3,
-    "charCount": 905,
+    "charCount": 723,
     "file": "knowledge/embeddings/chunks/04-apis-api-de-categorias--3.md"
+  },
+  {
+    "chunkId": "04-apis-api-de-categorias--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/04 - APIs/API de Categorias.md",
+    "heading": "Respostas confirmadas em teste (05-test-engineer, 2026-10-16)",
+    "order": 4,
+    "charCount": 1068,
+    "file": "knowledge/embeddings/chunks/04-apis-api-de-categorias--4.md"
   },
   {
     "chunkId": "04-apis-api-de-produtos--1",
@@ -68,8 +77,17 @@
     "sourceDoc": "knowledge/vault/04 - APIs/API de Produtos.md",
     "heading": "Paginação",
     "order": 5,
-    "charCount": 930,
+    "charCount": 737,
     "file": "knowledge/embeddings/chunks/04-apis-api-de-produtos--5.md"
+  },
+  {
+    "chunkId": "04-apis-api-de-produtos--6",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/04 - APIs/API de Produtos.md",
+    "heading": "Respostas confirmadas em teste (05-test-engineer, 2026-10-16)",
+    "order": 6,
+    "charCount": 1354,
+    "file": "knowledge/embeddings/chunks/04-apis-api-de-produtos--6.md"
   },
   {
     "chunkId": "05-banco-de-dados-modelo-de-dados-do-catalogo--1",
@@ -221,7 +239,7 @@
     "sourceDoc": "knowledge/vault/06 - Arquitetura/Tratamento de Erros e ProblemDetails.md",
     "heading": null,
     "order": 4,
-    "charCount": 916,
+    "charCount": 1223,
     "file": "knowledge/embeddings/chunks/06-arquitetura-tratamento-de-erros-e-problemdetails--4.md"
   },
   {
@@ -268,6 +286,339 @@
     "order": 2,
     "charCount": 675,
     "file": "knowledge/embeddings/chunks/07-integracoes-sql-server--2.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-autenticacao-autorizacao-e-rate-limit--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT Autenticação, autorização e rate limit.md",
+    "heading": "CT Autenticação, autorização e rate limit",
+    "order": 1,
+    "charCount": 552,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-autenticacao-autorizacao-e-rate-limit--1.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-autenticacao-autorizacao-e-rate-limit--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT Autenticação, autorização e rate limit.md",
+    "heading": null,
+    "order": 2,
+    "charCount": 768,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-autenticacao-autorizacao-e-rate-limit--2.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-br-001-nome-do-produto--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT BR-001 Nome do produto.md",
+    "heading": "CT BR-001 Nome do produto",
+    "order": 1,
+    "charCount": 446,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-br-001-nome-do-produto--1.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-br-001-nome-do-produto--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT BR-001 Nome do produto.md",
+    "heading": null,
+    "order": 2,
+    "charCount": 1333,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-br-001-nome-do-produto--2.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-br-001-nome-do-produto--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT BR-001 Nome do produto.md",
+    "heading": null,
+    "order": 3,
+    "charCount": 72,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-br-001-nome-do-produto--3.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-br-002-preco--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT BR-002 Preço.md",
+    "heading": "CT BR-002 Preço",
+    "order": 1,
+    "charCount": 341,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-br-002-preco--1.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-br-002-preco--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT BR-002 Preço.md",
+    "heading": null,
+    "order": 2,
+    "charCount": 880,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-br-002-preco--2.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-br-002-preco--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT BR-002 Preço.md",
+    "heading": null,
+    "order": 3,
+    "charCount": 274,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-br-002-preco--3.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-br-003-sku--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT BR-003 SKU.md",
+    "heading": "CT BR-003 SKU",
+    "order": 1,
+    "charCount": 566,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-br-003-sku--1.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-br-003-sku--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT BR-003 SKU.md",
+    "heading": null,
+    "order": 2,
+    "charCount": 1973,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-br-003-sku--2.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-br-003-sku--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT BR-003 SKU.md",
+    "heading": null,
+    "order": 3,
+    "charCount": 103,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-br-003-sku--3.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-br-004-categoria-valida--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT BR-004 Categoria válida.md",
+    "heading": "CT BR-004 Categoria válida",
+    "order": 1,
+    "charCount": 453,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-br-004-categoria-valida--1.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-br-004-categoria-valida--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT BR-004 Categoria válida.md",
+    "heading": null,
+    "order": 2,
+    "charCount": 1281,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-br-004-categoria-valida--2.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-br-004-categoria-valida--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT BR-004 Categoria válida.md",
+    "heading": null,
+    "order": 3,
+    "charCount": 95,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-br-004-categoria-valida--3.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-br-005-exclusao-logica--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT BR-005 Exclusão lógica.md",
+    "heading": "CT BR-005 Exclusão lógica",
+    "order": 1,
+    "charCount": 400,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-br-005-exclusao-logica--1.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-br-005-exclusao-logica--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT BR-005 Exclusão lógica.md",
+    "heading": null,
+    "order": 2,
+    "charCount": 1294,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-br-005-exclusao-logica--2.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-br-005-exclusao-logica--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT BR-005 Exclusão lógica.md",
+    "heading": null,
+    "order": 3,
+    "charCount": 108,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-br-005-exclusao-logica--3.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-br-006-remocao-de-categoria--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT BR-006 Remoção de categoria.md",
+    "heading": "CT BR-006 Remoção de categoria",
+    "order": 1,
+    "charCount": 483,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-br-006-remocao-de-categoria--1.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-br-006-remocao-de-categoria--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT BR-006 Remoção de categoria.md",
+    "heading": null,
+    "order": 2,
+    "charCount": 1313,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-br-006-remocao-de-categoria--2.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-br-006-remocao-de-categoria--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT BR-006 Remoção de categoria.md",
+    "heading": null,
+    "order": 3,
+    "charCount": 105,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-br-006-remocao-de-categoria--3.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-br-007-datas-utc--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT BR-007 Datas UTC.md",
+    "heading": "CT BR-007 Datas UTC",
+    "order": 1,
+    "charCount": 362,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-br-007-datas-utc--1.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-br-007-datas-utc--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT BR-007 Datas UTC.md",
+    "heading": null,
+    "order": 2,
+    "charCount": 1167,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-br-007-datas-utc--2.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-br-007-datas-utc--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT BR-007 Datas UTC.md",
+    "heading": null,
+    "order": 3,
+    "charCount": 84,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-br-007-datas-utc--3.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-req-001-categorias--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT REQ-001 Categorias.md",
+    "heading": "CT REQ-001 Categorias",
+    "order": 1,
+    "charCount": 342,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-req-001-categorias--1.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-req-001-categorias--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT REQ-001 Categorias.md",
+    "heading": null,
+    "order": 2,
+    "charCount": 1494,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-req-001-categorias--2.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-req-001-categorias--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT REQ-001 Categorias.md",
+    "heading": null,
+    "order": 3,
+    "charCount": 74,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-req-001-categorias--3.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-req-003-e-req-004-listagem-e-status--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT REQ-003 e REQ-004 Listagem e status.md",
+    "heading": "CT REQ-003 e REQ-004 Listagem e status",
+    "order": 1,
+    "charCount": 330,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-req-003-e-req-004-listagem-e-status--1.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-req-003-e-req-004-listagem-e-status--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT REQ-003 e REQ-004 Listagem e status.md",
+    "heading": null,
+    "order": 2,
+    "charCount": 2062,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-req-003-e-req-004-listagem-e-status--2.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-req-003-e-req-004-listagem-e-status--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT REQ-003 e REQ-004 Listagem e status.md",
+    "heading": null,
+    "order": 3,
+    "charCount": 72,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-req-003-e-req-004-listagem-e-status--3.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-tratamento-de-erros-e-problemdetails--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT Tratamento de erros e ProblemDetails.md",
+    "heading": "CT Tratamento de erros e ProblemDetails",
+    "order": 1,
+    "charCount": 589,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-tratamento-de-erros-e-problemdetails--1.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-tratamento-de-erros-e-problemdetails--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT Tratamento de erros e ProblemDetails.md",
+    "heading": null,
+    "order": 2,
+    "charCount": 1104,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-tratamento-de-erros-e-problemdetails--2.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-ct-tratamento-de-erros-e-problemdetails--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/CT Tratamento de erros e ProblemDetails.md",
+    "heading": null,
+    "order": 3,
+    "charCount": 441,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-ct-tratamento-de-erros-e-problemdetails--3.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-estrategia-e-execucao-dos-testes--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/Estratégia e execução dos testes.md",
+    "heading": "Estratégia e execução dos testes",
+    "order": 1,
+    "charCount": 421,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-estrategia-e-execucao-dos-testes--1.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-estrategia-e-execucao-dos-testes--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/Estratégia e execução dos testes.md",
+    "heading": "Projetos",
+    "order": 2,
+    "charCount": 1365,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-estrategia-e-execucao-dos-testes--2.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-estrategia-e-execucao-dos-testes--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/Estratégia e execução dos testes.md",
+    "heading": "Comandos",
+    "order": 3,
+    "charCount": 296,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-estrategia-e-execucao-dos-testes--3.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-estrategia-e-execucao-dos-testes--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/Estratégia e execução dos testes.md",
+    "heading": "Resultado em 2026-10-16",
+    "order": 4,
+    "charCount": 414,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-estrategia-e-execucao-dos-testes--4.md"
+  },
+  {
+    "chunkId": "09-casos-de-teste-estrategia-e-execucao-dos-testes--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/09 - Casos de Teste/Estratégia e execução dos testes.md",
+    "heading": "Casos por regra",
+    "order": 5,
+    "charCount": 491,
+    "file": "knowledge/embeddings/chunks/09-casos-de-teste-estrategia-e-execucao-dos-testes--5.md"
   },
   {
     "chunkId": "10-adr-adr-001-remocao-de-categoria-com-produtos-removidos--1",
@@ -1229,7 +1580,7 @@
     "sourceDoc": "knowledge/vault/11 - Bugs Conhecidos/SKU aceita quebra de linha no final.md",
     "heading": "Status: resolvido",
     "order": 2,
-    "charCount": 473,
+    "charCount": 591,
     "file": "knowledge/embeddings/chunks/11-bugs-conhecidos-sku-aceita-quebra-de-linha-no-final--2.md"
   },
   {
@@ -1364,7 +1715,7 @@
     "sourceDoc": "knowledge/vault/14 - Planejamento/Implementação do Catálogo de Produtos.md",
     "heading": "Situação",
     "order": 2,
-    "charCount": 177,
+    "charCount": 202,
     "file": "knowledge/embeddings/chunks/14-planejamento-implementacao-do-catalogo-de-produtos--2.md"
   },
   {
@@ -1373,7 +1724,7 @@
     "sourceDoc": "knowledge/vault/14 - Planejamento/Implementação do Catálogo de Produtos.md",
     "heading": "Componentes",
     "order": 3,
-    "charCount": 1348,
+    "charCount": 1267,
     "file": "knowledge/embeddings/chunks/14-planejamento-implementacao-do-catalogo-de-produtos--3.md"
   },
   {
@@ -1382,7 +1733,7 @@
     "sourceDoc": "knowledge/vault/14 - Planejamento/Implementação do Catálogo de Produtos.md",
     "heading": "Pendências",
     "order": 4,
-    "charCount": 1749,
+    "charCount": 1700,
     "file": "knowledge/embeddings/chunks/14-planejamento-implementacao-do-catalogo-de-produtos--4.md"
   },
   {
@@ -1467,6 +1818,51 @@
     "file": "knowledge/embeddings/chunks/14-planejamento-rate-limit-atras-de-proxy-e-valor-definitivo--3.md"
   },
   {
+    "chunkId": "14-planejamento-testes-de-integracao-com-sql-server-pendentes--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Testes de integração com SQL Server pendentes.md",
+    "heading": "Testes de integração com SQL Server pendentes",
+    "order": 1,
+    "charCount": 414,
+    "file": "knowledge/embeddings/chunks/14-planejamento-testes-de-integracao-com-sql-server-pendentes--1.md"
+  },
+  {
+    "chunkId": "14-planejamento-testes-de-integracao-com-sql-server-pendentes--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Testes de integração com SQL Server pendentes.md",
+    "heading": "Situação",
+    "order": 2,
+    "charCount": 557,
+    "file": "knowledge/embeddings/chunks/14-planejamento-testes-de-integracao-com-sql-server-pendentes--2.md"
+  },
+  {
+    "chunkId": "14-planejamento-testes-de-integracao-com-sql-server-pendentes--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Testes de integração com SQL Server pendentes.md",
+    "heading": "Próximo passo",
+    "order": 3,
+    "charCount": 419,
+    "file": "knowledge/embeddings/chunks/14-planejamento-testes-de-integracao-com-sql-server-pendentes--3.md"
+  },
+  {
+    "chunkId": "14-planejamento-testes-de-integracao-com-sql-server-pendentes--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Testes de integração com SQL Server pendentes.md",
+    "heading": "Comando que reproduz a situação atual",
+    "order": 4,
+    "charCount": 182,
+    "file": "knowledge/embeddings/chunks/14-planejamento-testes-de-integracao-com-sql-server-pendentes--4.md"
+  },
+  {
+    "chunkId": "14-planejamento-testes-de-integracao-com-sql-server-pendentes--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Testes de integração com SQL Server pendentes.md",
+    "heading": "Relacionado",
+    "order": 5,
+    "charCount": 169,
+    "file": "knowledge/embeddings/chunks/14-planejamento-testes-de-integracao-com-sql-server-pendentes--5.md"
+  },
+  {
     "chunkId": "index--1",
     "tipo": "vault",
     "sourceDoc": "knowledge/vault/Index.md",
@@ -1515,27 +1911,36 @@
     "chunkId": "index--6",
     "tipo": "vault",
     "sourceDoc": "knowledge/vault/Index.md",
-    "heading": "10 - ADR",
+    "heading": "09 - Casos de Teste",
     "order": 6,
-    "charCount": 717,
+    "charCount": 431,
     "file": "knowledge/embeddings/chunks/index--6.md"
   },
   {
     "chunkId": "index--7",
     "tipo": "vault",
     "sourceDoc": "knowledge/vault/Index.md",
-    "heading": "11 - Bugs Conhecidos",
+    "heading": "10 - ADR",
     "order": 7,
-    "charCount": 92,
+    "charCount": 717,
     "file": "knowledge/embeddings/chunks/index--7.md"
   },
   {
     "chunkId": "index--8",
     "tipo": "vault",
     "sourceDoc": "knowledge/vault/Index.md",
-    "heading": "14 - Planejamento",
+    "heading": "11 - Bugs Conhecidos",
     "order": 8,
-    "charCount": 345,
+    "charCount": 92,
     "file": "knowledge/embeddings/chunks/index--8.md"
+  },
+  {
+    "chunkId": "index--9",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/Index.md",
+    "heading": "14 - Planejamento",
+    "order": 9,
+    "charCount": 397,
+    "file": "knowledge/embeddings/chunks/index--9.md"
   }
 ]

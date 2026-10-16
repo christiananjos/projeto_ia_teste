@@ -5,5 +5,8 @@
     <Project Path="src/Infrastructure/Catalogo.Infrastructure.csproj" />
     <Project Path="src/API/Catalogo.Api.csproj" />
   </Folder>
-  <Folder Name="/src/Tests/" />
+  <Folder Name="/src/Tests/">
+    <Project Path="src/Tests/Catalogo.IntegrationTests/Catalogo.IntegrationTests.csproj" />
+    <Project Path="src/Tests/Catalogo.UnitTests/Catalogo.UnitTests.csproj" />
+  </Folder>
 </Solution>

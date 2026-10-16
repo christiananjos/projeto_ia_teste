@@ -18,6 +18,20 @@
 - [[Provedor de Identidade JWT]]
 - [[SQL Server]]
 
+## 09 - Casos de Teste
+- [[Estratégia e execução dos testes]]
+- [[CT REQ-001 Categorias]]
+- [[CT BR-001 Nome do produto]]
+- [[CT BR-002 Preço]]
+- [[CT BR-003 SKU]]
+- [[CT BR-004 Categoria válida]]
+- [[CT BR-005 Exclusão lógica]]
+- [[CT BR-006 Remoção de categoria]]
+- [[CT BR-007 Datas UTC]]
+- [[CT REQ-003 e REQ-004 Listagem e status]]
+- [[CT Autenticação, autorização e rate limit]]
+- [[CT Tratamento de erros e ProblemDetails]]
+
 ## 10 - ADR
 - [[ADR-001 Remoção de categoria com produtos removidos]]
 - [[ADR-002 Estrutura da solução e dependências]]
@@ -40,6 +54,7 @@
 
 ## 14 - Planejamento
 - [[Implementação do Catálogo de Produtos]]
+- [[Testes de integração com SQL Server pendentes]]
 - [[Confirmar decisões que alteram comportamento]]
 - [[Provedor de identidade]]
 - [[Rate limit atrás de proxy e valor definitivo]]

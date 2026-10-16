@@ -26,6 +26,21 @@
   },
   {
     "source": "04 - APIs/API de Categorias",
+    "target": "14 - Planejamento/Testes de integração com SQL Server pendentes",
+    "resolved": true
+  },
+  {
+    "source": "04 - APIs/API de Categorias",
+    "target": "09 - Casos de Teste/CT REQ-001 Categorias",
+    "resolved": true
+  },
+  {
+    "source": "04 - APIs/API de Categorias",
+    "target": "09 - Casos de Teste/CT BR-006 Remoção de categoria",
+    "resolved": true
+  },
+  {
+    "source": "04 - APIs/API de Categorias",
     "target": "05 - Banco de Dados/Modelo de Dados do Catálogo",
     "resolved": true
   },
@@ -77,6 +92,41 @@
   {
     "source": "04 - APIs/API de Produtos",
     "target": "10 - ADR/ADR-005 Contrato de Categoria",
+    "resolved": true
+  },
+  {
+    "source": "04 - APIs/API de Produtos",
+    "target": "14 - Planejamento/Testes de integração com SQL Server pendentes",
+    "resolved": true
+  },
+  {
+    "source": "04 - APIs/API de Produtos",
+    "target": "09 - Casos de Teste/CT BR-001 Nome do produto",
+    "resolved": true
+  },
+  {
+    "source": "04 - APIs/API de Produtos",
+    "target": "09 - Casos de Teste/CT BR-002 Preço",
+    "resolved": true
+  },
+  {
+    "source": "04 - APIs/API de Produtos",
+    "target": "09 - Casos de Teste/CT BR-003 SKU",
+    "resolved": true
+  },
+  {
+    "source": "04 - APIs/API de Produtos",
+    "target": "09 - Casos de Teste/CT BR-004 Categoria válida",
+    "resolved": true
+  },
+  {
+    "source": "04 - APIs/API de Produtos",
+    "target": "09 - Casos de Teste/CT BR-005 Exclusão lógica",
+    "resolved": true
+  },
+  {
+    "source": "04 - APIs/API de Produtos",
+    "target": "09 - Casos de Teste/CT REQ-003 e REQ-004 Listagem e status",
     "resolved": true
   },
   {
@@ -251,6 +301,11 @@
   },
   {
     "source": "06 - Arquitetura/Tratamento de Erros e ProblemDetails",
+    "target": "09 - Casos de Teste/CT Tratamento de erros e ProblemDetails",
+    "resolved": true
+  },
+  {
+    "source": "06 - Arquitetura/Tratamento de Erros e ProblemDetails",
     "target": "06 - Arquitetura/Arquitetura da Solução",
     "resolved": true
   },
@@ -307,6 +362,311 @@
   {
     "source": "07 - Integrações/SQL Server",
     "target": "06 - Arquitetura/Persistência EF Core",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT Autenticação, autorização e rate limit",
+    "target": "10 - ADR/ADR-010 Autenticação JWT com chave simétrica",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT Autenticação, autorização e rate limit",
+    "target": "10 - ADR/ADR-011 Rate limiting por IP",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT Autenticação, autorização e rate limit",
+    "target": "07 - Integrações/Provedor de Identidade JWT",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT Autenticação, autorização e rate limit",
+    "target": "14 - Planejamento/Provedor de identidade",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT Autenticação, autorização e rate limit",
+    "target": "14 - Planejamento/Rate limit atrás de proxy e valor definitivo",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT Autenticação, autorização e rate limit",
+    "target": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-001 Nome do produto",
+    "target": "10 - ADR/ADR-007 Espaços nas pontas rejeitados com 400",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-001 Nome do produto",
+    "target": "10 - ADR/ADR-008 Unicidade case-insensitive via collation",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-001 Nome do produto",
+    "target": "04 - APIs/API de Produtos",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-001 Nome do produto",
+    "target": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-002 Preço",
+    "target": "10 - ADR/ADR-014 Validação de preço",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-002 Preço",
+    "target": "04 - APIs/API de Produtos",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-002 Preço",
+    "target": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-003 SKU",
+    "target": "10 - ADR/ADR-008 Unicidade case-insensitive via collation",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-003 SKU",
+    "target": "11 - Bugs Conhecidos/SKU aceita quebra de linha no final",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-003 SKU",
+    "target": "04 - APIs/API de Produtos",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-003 SKU",
+    "target": "09 - Casos de Teste/CT BR-005 Exclusão lógica",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-003 SKU",
+    "target": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-004 Categoria válida",
+    "target": "10 - ADR/ADR-005 Contrato de Categoria",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-004 Categoria válida",
+    "target": "10 - ADR/ADR-006 Contrato de Produto",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-004 Categoria válida",
+    "target": "04 - APIs/API de Produtos",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-004 Categoria válida",
+    "target": "04 - APIs/API de Categorias",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-004 Categoria válida",
+    "target": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-005 Exclusão lógica",
+    "target": "10 - ADR/ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-005 Exclusão lógica",
+    "target": "04 - APIs/API de Produtos",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-005 Exclusão lógica",
+    "target": "09 - Casos de Teste/CT BR-006 Remoção de categoria",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-005 Exclusão lógica",
+    "target": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-006 Remoção de categoria",
+    "target": "10 - ADR/ADR-001 Remoção de categoria com produtos removidos",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-006 Remoção de categoria",
+    "target": "04 - APIs/API de Categorias",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-006 Remoção de categoria",
+    "target": "09 - Casos de Teste/CT BR-005 Exclusão lógica",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-006 Remoção de categoria",
+    "target": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-007 Datas UTC",
+    "target": "10 - ADR/ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-007 Datas UTC",
+    "target": "05 - Banco de Dados/Modelo de Dados do Catálogo",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT BR-007 Datas UTC",
+    "target": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT REQ-001 Categorias",
+    "target": "10 - ADR/ADR-005 Contrato de Categoria",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT REQ-001 Categorias",
+    "target": "10 - ADR/ADR-008 Unicidade case-insensitive via collation",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT REQ-001 Categorias",
+    "target": "09 - Casos de Teste/CT BR-006 Remoção de categoria",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT REQ-001 Categorias",
+    "target": "04 - APIs/API de Categorias",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT REQ-001 Categorias",
+    "target": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT REQ-003 e REQ-004 Listagem e status",
+    "target": "10 - ADR/ADR-009 Paginação, filtros e ordenação",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT REQ-003 e REQ-004 Listagem e status",
+    "target": "10 - ADR/ADR-006 Contrato de Produto",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT REQ-003 e REQ-004 Listagem e status",
+    "target": "04 - APIs/API de Produtos",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT REQ-003 e REQ-004 Listagem e status",
+    "target": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT Tratamento de erros e ProblemDetails",
+    "target": "10 - ADR/ADR-004 Minimal APIs com ProblemDetails",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT Tratamento de erros e ProblemDetails",
+    "target": "06 - Arquitetura/Tratamento de Erros e ProblemDetails",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/CT Tratamento de erros e ProblemDetails",
+    "target": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "target": "10 - ADR/ADR-013 Estratégia de testes com Testcontainers",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "target": "14 - Planejamento/Testes de integração com SQL Server pendentes",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "target": "09 - Casos de Teste/CT REQ-001 Categorias",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "target": "09 - Casos de Teste/CT BR-001 Nome do produto",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "target": "09 - Casos de Teste/CT BR-002 Preço",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "target": "09 - Casos de Teste/CT BR-003 SKU",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "target": "09 - Casos de Teste/CT BR-004 Categoria válida",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "target": "09 - Casos de Teste/CT BR-005 Exclusão lógica",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "target": "09 - Casos de Teste/CT BR-006 Remoção de categoria",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "target": "09 - Casos de Teste/CT BR-007 Datas UTC",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "target": "09 - Casos de Teste/CT REQ-003 e REQ-004 Listagem e status",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "target": "09 - Casos de Teste/CT Autenticação, autorização e rate limit",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "target": "09 - Casos de Teste/CT Tratamento de erros e ProblemDetails",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "target": "04 - APIs/API de Categorias",
+    "resolved": true
+  },
+  {
+    "source": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "target": "04 - APIs/API de Produtos",
     "resolved": true
   },
   {
@@ -521,12 +881,7 @@
   },
   {
     "source": "11 - Bugs Conhecidos/SKU aceita quebra de linha no final",
-    "target": "10 - ADR/ADR-013 Estratégia de testes com Testcontainers",
-    "resolved": true
-  },
-  {
-    "source": "11 - Bugs Conhecidos/SKU aceita quebra de linha no final",
-    "target": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "target": "09 - Casos de Teste/CT BR-003 SKU",
     "resolved": true
   },
   {
@@ -626,7 +981,12 @@
   },
   {
     "source": "14 - Planejamento/Implementação do Catálogo de Produtos",
-    "target": "10 - ADR/ADR-013 Estratégia de testes com Testcontainers",
+    "target": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "target": "14 - Planejamento/Testes de integração com SQL Server pendentes",
     "resolved": true
   },
   {
@@ -637,6 +997,21 @@
   {
     "source": "14 - Planejamento/Implementação do Catálogo de Produtos",
     "target": "06 - Arquitetura/Tratamento de Erros e ProblemDetails",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "target": "09 - Casos de Teste/CT BR-003 SKU",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "target": "09 - Casos de Teste/CT Tratamento de erros e ProblemDetails",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "target": "14 - Planejamento/Testes de integração com SQL Server pendentes",
     "resolved": true
   },
   {
@@ -667,6 +1042,31 @@
   {
     "source": "14 - Planejamento/Rate limit atrás de proxy e valor definitivo",
     "target": "10 - ADR/ADR-011 Rate limiting por IP",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Testes de integração com SQL Server pendentes",
+    "target": "10 - ADR/ADR-001 Remoção de categoria com produtos removidos",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Testes de integração com SQL Server pendentes",
+    "target": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Testes de integração com SQL Server pendentes",
+    "target": "10 - ADR/ADR-013 Estratégia de testes com Testcontainers",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Testes de integração com SQL Server pendentes",
+    "target": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Testes de integração com SQL Server pendentes",
+    "target": "07 - Integrações/SQL Server",
     "resolved": true
   },
   {
@@ -707,6 +1107,66 @@
   {
     "source": "Index",
     "target": "07 - Integrações/SQL Server",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "09 - Casos de Teste/CT REQ-001 Categorias",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "09 - Casos de Teste/CT BR-001 Nome do produto",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "09 - Casos de Teste/CT BR-002 Preço",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "09 - Casos de Teste/CT BR-003 SKU",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "09 - Casos de Teste/CT BR-004 Categoria válida",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "09 - Casos de Teste/CT BR-005 Exclusão lógica",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "09 - Casos de Teste/CT BR-006 Remoção de categoria",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "09 - Casos de Teste/CT BR-007 Datas UTC",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "09 - Casos de Teste/CT REQ-003 e REQ-004 Listagem e status",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "09 - Casos de Teste/CT Autenticação, autorização e rate limit",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "09 - Casos de Teste/CT Tratamento de erros e ProblemDetails",
     "resolved": true
   },
   {
@@ -792,6 +1252,11 @@
   {
     "source": "Index",
     "target": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "14 - Planejamento/Testes de integração com SQL Server pendentes",
     "resolved": true
   },
   {

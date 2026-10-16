@@ -48,6 +48,78 @@
     "domain": "07 - Integrações"
   },
   {
+    "id": "09 - Casos de Teste/CT Autenticação, autorização e rate limit",
+    "title": "CT Autenticação, autorização e rate limit",
+    "path": "09 - Casos de Teste/CT Autenticação, autorização e rate limit.md",
+    "domain": "09 - Casos de Teste"
+  },
+  {
+    "id": "09 - Casos de Teste/CT BR-001 Nome do produto",
+    "title": "CT BR-001 Nome do produto",
+    "path": "09 - Casos de Teste/CT BR-001 Nome do produto.md",
+    "domain": "09 - Casos de Teste"
+  },
+  {
+    "id": "09 - Casos de Teste/CT BR-002 Preço",
+    "title": "CT BR-002 Preço",
+    "path": "09 - Casos de Teste/CT BR-002 Preço.md",
+    "domain": "09 - Casos de Teste"
+  },
+  {
+    "id": "09 - Casos de Teste/CT BR-003 SKU",
+    "title": "CT BR-003 SKU",
+    "path": "09 - Casos de Teste/CT BR-003 SKU.md",
+    "domain": "09 - Casos de Teste"
+  },
+  {
+    "id": "09 - Casos de Teste/CT BR-004 Categoria válida",
+    "title": "CT BR-004 Categoria válida",
+    "path": "09 - Casos de Teste/CT BR-004 Categoria válida.md",
+    "domain": "09 - Casos de Teste"
+  },
+  {
+    "id": "09 - Casos de Teste/CT BR-005 Exclusão lógica",
+    "title": "CT BR-005 Exclusão lógica",
+    "path": "09 - Casos de Teste/CT BR-005 Exclusão lógica.md",
+    "domain": "09 - Casos de Teste"
+  },
+  {
+    "id": "09 - Casos de Teste/CT BR-006 Remoção de categoria",
+    "title": "CT BR-006 Remoção de categoria",
+    "path": "09 - Casos de Teste/CT BR-006 Remoção de categoria.md",
+    "domain": "09 - Casos de Teste"
+  },
+  {
+    "id": "09 - Casos de Teste/CT BR-007 Datas UTC",
+    "title": "CT BR-007 Datas UTC",
+    "path": "09 - Casos de Teste/CT BR-007 Datas UTC.md",
+    "domain": "09 - Casos de Teste"
+  },
+  {
+    "id": "09 - Casos de Teste/CT REQ-001 Categorias",
+    "title": "CT REQ-001 Categorias",
+    "path": "09 - Casos de Teste/CT REQ-001 Categorias.md",
+    "domain": "09 - Casos de Teste"
+  },
+  {
+    "id": "09 - Casos de Teste/CT REQ-003 e REQ-004 Listagem e status",
+    "title": "CT REQ-003 e REQ-004 Listagem e status",
+    "path": "09 - Casos de Teste/CT REQ-003 e REQ-004 Listagem e status.md",
+    "domain": "09 - Casos de Teste"
+  },
+  {
+    "id": "09 - Casos de Teste/CT Tratamento de erros e ProblemDetails",
+    "title": "CT Tratamento de erros e ProblemDetails",
+    "path": "09 - Casos de Teste/CT Tratamento de erros e ProblemDetails.md",
+    "domain": "09 - Casos de Teste"
+  },
+  {
+    "id": "09 - Casos de Teste/Estratégia e execução dos testes",
+    "title": "Estratégia e execução dos testes",
+    "path": "09 - Casos de Teste/Estratégia e execução dos testes.md",
+    "domain": "09 - Casos de Teste"
+  },
+  {
     "id": "10 - ADR/ADR-001 Remoção de categoria com produtos removidos",
     "title": "ADR-001: Remoção de categoria com produtos só removidos logicamente",
     "path": "10 - ADR/ADR-001 Remoção de categoria com produtos removidos.md",
@@ -189,6 +261,12 @@
     "id": "14 - Planejamento/Rate limit atrás de proxy e valor definitivo",
     "title": "Rate limit atrás de proxy e valor definitivo",
     "path": "14 - Planejamento/Rate limit atrás de proxy e valor definitivo.md",
+    "domain": "14 - Planejamento"
+  },
+  {
+    "id": "14 - Planejamento/Testes de integração com SQL Server pendentes",
+    "title": "Testes de integração com SQL Server pendentes",
+    "path": "14 - Planejamento/Testes de integração com SQL Server pendentes.md",
     "domain": "14 - Planejamento"
   },
   {

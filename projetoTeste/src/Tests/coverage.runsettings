@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Usado automaticamente pelos dois projetos de teste (RunSettingsFilePath no .csproj), então o comando
+  dotnet test com XPlat Code Coverage na raiz já mede só o código de produção.
+-->
+<RunSettings>
+  <DataCollectionRunSettings>
+    <DataCollectors>
+      <DataCollector friendlyName="XPlat code coverage">
+        <Configuration>
+          <Format>cobertura</Format>
+          <Include>[Catalogo.Domain]*,[Catalogo.Application]*,[Catalogo.Infrastructure]*,[Catalogo.Api]*</Include>
+          <ExcludeByFile>**/Persistencia/Migrations/*.cs</ExcludeByFile>
+          <ExcludeByAttribute>Obsolete,GeneratedCodeAttribute,CompilerGeneratedAttribute,ExcludeFromCodeCoverageAttribute</ExcludeByAttribute>
+          <SkipAutoProps>true</SkipAutoProps>
+        </Configuration>
+      </DataCollector>
+    </DataCollectors>
+  </DataCollectionRunSettings>
+</RunSettings>

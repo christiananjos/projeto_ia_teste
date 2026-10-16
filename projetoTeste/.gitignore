@@ -49,3 +49,6 @@ Thumbs.db
 # Ambiente
 .env
 .env.local
+
+# Resultados de teste/cobertura
+TestResults/

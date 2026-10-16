@@ -34,4 +34,8 @@ Erros sempre em ProblemDetails, ver [[Tratamento de Erros e ProblemDetails]]. Au
 - **Remover:** 404 → 409 `categoria.possui_produtos` se houver produto não removido (ativo ou inativo) → exclusão física da categoria junto com os produtos já removidos logicamente, numa transação ([[ADR-001 Remoção de categoria com produtos removidos]]). Corrida com produto novo (FK 547) → 409 `categoria.possui_produtos`.
 - Inativar a categoria não afeta os produtos já vinculados; só impede criar/mover produto para ela (BR-004).
 
+## Respostas confirmadas em teste (05-test-engineer, 2026-10-16)
+
+Pelo pipeline HTTP real, com a persistência substituída: 201 com `Location` relativo `/api/v1/categorias/{id}` e datas com sufixo `Z`; datas enviadas pelo cliente são ignoradas; 400 `validacao` com `errors.nome`/`errors.ativa`/`errors.page`/`errors.pageSize`; 400 `requisicao_invalida` para JSON malformado e `ativa=talvez`; 404 `categoria.nao_encontrada`; 404 `nao_encontrado` para id não-GUID; 409 `categoria.nome_duplicado` (`detail` "Já existe uma categoria com este nome."); 409 `categoria.possui_produtos` (inclusive na corrida de FK); 204 no DELETE. As respostas que dependem do SQL Server (unicidade CI, ADR-001) ainda não foram executadas ([[Testes de integração com SQL Server pendentes]]). cURL de cada endpoint: `docs/api/testes-api.md`. Casos: [[CT REQ-001 Categorias]], [[CT BR-006 Remoção de categoria]].
+
 Tabelas: [[Modelo de Dados do Catálogo]]. Relacionado: [[API de Produtos]], [[ADR-007 Espaços nas pontas rejeitados com 400]], [[ADR-008 Unicidade case-insensitive via collation]].
