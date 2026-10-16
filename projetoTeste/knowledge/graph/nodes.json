@@ -1,0 +1,176 @@
+[
+  {
+    "id": "06 - Arquitetura/Arquitetura da Solução",
+    "title": "Arquitetura da Solução",
+    "path": "06 - Arquitetura/Arquitetura da Solução.md",
+    "domain": "06 - Arquitetura"
+  },
+  {
+    "id": "06 - Arquitetura/Persistência EF Core",
+    "title": "Persistência EF Core",
+    "path": "06 - Arquitetura/Persistência EF Core.md",
+    "domain": "06 - Arquitetura"
+  },
+  {
+    "id": "06 - Arquitetura/Tratamento de Erros e ProblemDetails",
+    "title": "Tratamento de Erros e ProblemDetails",
+    "path": "06 - Arquitetura/Tratamento de Erros e ProblemDetails.md",
+    "domain": "06 - Arquitetura"
+  },
+  {
+    "id": "07 - Integrações/Provedor de Identidade JWT",
+    "title": "Provedor de Identidade JWT",
+    "path": "07 - Integrações/Provedor de Identidade JWT.md",
+    "domain": "07 - Integrações"
+  },
+  {
+    "id": "07 - Integrações/SQL Server",
+    "title": "SQL Server",
+    "path": "07 - Integrações/SQL Server.md",
+    "domain": "07 - Integrações"
+  },
+  {
+    "id": "10 - ADR/ADR-001 Remoção de categoria com produtos removidos",
+    "title": "ADR-001: Remoção de categoria com produtos só removidos logicamente",
+    "path": "10 - ADR/ADR-001 Remoção de categoria com produtos removidos.md",
+    "domain": "10 - ADR"
+  },
+  {
+    "id": "10 - ADR/ADR-002 Estrutura da solução e dependências",
+    "title": "ADR-002: Estrutura da solução e dependências entre camadas",
+    "path": "10 - ADR/ADR-002 Estrutura da solução e dependências.md",
+    "domain": "10 - ADR"
+  },
+  {
+    "id": "10 - ADR/ADR-003 Casos de uso, Result pattern e CQRS leve",
+    "title": "ADR-003: Casos de uso explícitos, Result pattern e CQRS leve (sem MediatR)",
+    "path": "10 - ADR/ADR-003 Casos de uso, Result pattern e CQRS leve.md",
+    "domain": "10 - ADR"
+  },
+  {
+    "id": "10 - ADR/ADR-004 Minimal APIs com ProblemDetails",
+    "title": "ADR-004: Minimal APIs com ProblemDetails (RFC 9457)",
+    "path": "10 - ADR/ADR-004 Minimal APIs com ProblemDetails.md",
+    "domain": "10 - ADR"
+  },
+  {
+    "id": "10 - ADR/ADR-005 Contrato de Categoria",
+    "title": "ADR-005: Contrato de Categoria",
+    "path": "10 - ADR/ADR-005 Contrato de Categoria.md",
+    "domain": "10 - ADR"
+  },
+  {
+    "id": "10 - ADR/ADR-006 Contrato de Produto",
+    "title": "ADR-006: Contrato de Produto",
+    "path": "10 - ADR/ADR-006 Contrato de Produto.md",
+    "domain": "10 - ADR"
+  },
+  {
+    "id": "10 - ADR/ADR-007 Espaços nas pontas rejeitados com 400",
+    "title": "ADR-007: Espaços nas pontas do nome rejeitados com 400",
+    "path": "10 - ADR/ADR-007 Espaços nas pontas rejeitados com 400.md",
+    "domain": "10 - ADR"
+  },
+  {
+    "id": "10 - ADR/ADR-008 Unicidade case-insensitive via collation",
+    "title": "ADR-008: Unicidade sem diferenciar maiúsculas via collation e índices filtrados",
+    "path": "10 - ADR/ADR-008 Unicidade case-insensitive via collation.md",
+    "domain": "10 - ADR"
+  },
+  {
+    "id": "10 - ADR/ADR-009 Paginação, filtros e ordenação",
+    "title": "ADR-009: Paginação, filtros e ordenação",
+    "path": "10 - ADR/ADR-009 Paginação, filtros e ordenação.md",
+    "domain": "10 - ADR"
+  },
+  {
+    "id": "10 - ADR/ADR-010 Autenticação JWT com chave simétrica",
+    "title": "ADR-010: Autenticação JWT com chave simétrica e sem endpoint de login",
+    "path": "10 - ADR/ADR-010 Autenticação JWT com chave simétrica.md",
+    "domain": "10 - ADR"
+  },
+  {
+    "id": "10 - ADR/ADR-011 Rate limiting por IP",
+    "title": "ADR-011: Rate limiting fixed window por IP",
+    "path": "10 - ADR/ADR-011 Rate limiting por IP.md",
+    "domain": "10 - ADR"
+  },
+  {
+    "id": "10 - ADR/ADR-012 Sem concorrência otimista",
+    "title": "ADR-012: Sem concorrência otimista nesta versão",
+    "path": "10 - ADR/ADR-012 Sem concorrência otimista.md",
+    "domain": "10 - ADR"
+  },
+  {
+    "id": "10 - ADR/ADR-013 Estratégia de testes com Testcontainers",
+    "title": "ADR-013: Testes com xUnit, NSubstitute, Shouldly e Testcontainers SQL Server",
+    "path": "10 - ADR/ADR-013 Estratégia de testes com Testcontainers.md",
+    "domain": "10 - ADR"
+  },
+  {
+    "id": "10 - ADR/ADR-014 Validação de preço",
+    "title": "ADR-014: Validação de preço",
+    "path": "10 - ADR/ADR-014 Validação de preço.md",
+    "domain": "10 - ADR"
+  },
+  {
+    "id": "10 - ADR/ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor",
+    "title": "ADR-015: Exclusão lógica com global query filter, UUID v7 e datas pelo servidor",
+    "path": "10 - ADR/ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor.md",
+    "domain": "10 - ADR"
+  },
+  {
+    "id": "14 - Planejamento/Auditoria de produtos removidos",
+    "title": "Auditoria de produtos removidos",
+    "path": "14 - Planejamento/Auditoria de produtos removidos.md",
+    "domain": "14 - Planejamento"
+  },
+  {
+    "id": "14 - Planejamento/Concorrência otimista",
+    "title": "Concorrência otimista",
+    "path": "14 - Planejamento/Concorrência otimista.md",
+    "domain": "14 - Planejamento"
+  },
+  {
+    "id": "14 - Planejamento/Confirmar decisões que alteram comportamento",
+    "title": "Confirmar decisões que alteram comportamento",
+    "path": "14 - Planejamento/Confirmar decisões que alteram comportamento.md",
+    "domain": "14 - Planejamento"
+  },
+  {
+    "id": "14 - Planejamento/Health checks e observabilidade",
+    "title": "Health checks e observabilidade",
+    "path": "14 - Planejamento/Health checks e observabilidade.md",
+    "domain": "14 - Planejamento"
+  },
+  {
+    "id": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "title": "Implementação do Catálogo de Produtos",
+    "path": "14 - Planejamento/Implementação do Catálogo de Produtos.md",
+    "domain": "14 - Planejamento"
+  },
+  {
+    "id": "14 - Planejamento/Listagem de produtos ativos e inativos",
+    "title": "Listagem de produtos ativos e inativos",
+    "path": "14 - Planejamento/Listagem de produtos ativos e inativos.md",
+    "domain": "14 - Planejamento"
+  },
+  {
+    "id": "14 - Planejamento/Provedor de identidade",
+    "title": "Provedor de identidade",
+    "path": "14 - Planejamento/Provedor de identidade.md",
+    "domain": "14 - Planejamento"
+  },
+  {
+    "id": "14 - Planejamento/Rate limit atrás de proxy e valor definitivo",
+    "title": "Rate limit atrás de proxy e valor definitivo",
+    "path": "14 - Planejamento/Rate limit atrás de proxy e valor definitivo.md",
+    "domain": "14 - Planejamento"
+  },
+  {
+    "id": "Index",
+    "title": "Index do Knowledge Vault",
+    "path": "Index.md",
+    "domain": ""
+  }
+]

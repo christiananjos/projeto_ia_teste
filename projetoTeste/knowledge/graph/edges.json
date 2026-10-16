@@ -1,0 +1,572 @@
+[
+  {
+    "source": "06 - Arquitetura/Arquitetura da Solução",
+    "target": "10 - ADR/ADR-002 Estrutura da solução e dependências",
+    "resolved": true
+  },
+  {
+    "source": "06 - Arquitetura/Arquitetura da Solução",
+    "target": "10 - ADR/ADR-003 Casos de uso, Result pattern e CQRS leve",
+    "resolved": true
+  },
+  {
+    "source": "06 - Arquitetura/Arquitetura da Solução",
+    "target": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "resolved": true
+  },
+  {
+    "source": "06 - Arquitetura/Arquitetura da Solução",
+    "target": "10 - ADR/ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor",
+    "resolved": true
+  },
+  {
+    "source": "06 - Arquitetura/Arquitetura da Solução",
+    "target": "06 - Arquitetura/Persistência EF Core",
+    "resolved": true
+  },
+  {
+    "source": "06 - Arquitetura/Arquitetura da Solução",
+    "target": "06 - Arquitetura/Tratamento de Erros e ProblemDetails",
+    "resolved": true
+  },
+  {
+    "source": "06 - Arquitetura/Arquitetura da Solução",
+    "target": "07 - Integrações/Provedor de Identidade JWT",
+    "resolved": true
+  },
+  {
+    "source": "06 - Arquitetura/Arquitetura da Solução",
+    "target": "10 - ADR/ADR-006 Contrato de Produto",
+    "resolved": true
+  },
+  {
+    "source": "06 - Arquitetura/Arquitetura da Solução",
+    "target": "10 - ADR/ADR-005 Contrato de Categoria",
+    "resolved": true
+  },
+  {
+    "source": "06 - Arquitetura/Arquitetura da Solução",
+    "target": "10 - ADR/ADR-006 Contrato de Produto",
+    "resolved": true
+  },
+  {
+    "source": "06 - Arquitetura/Arquitetura da Solução",
+    "target": "10 - ADR/ADR-009 Paginação, filtros e ordenação",
+    "resolved": true
+  },
+  {
+    "source": "06 - Arquitetura/Arquitetura da Solução",
+    "target": "10 - ADR/ADR-007 Espaços nas pontas rejeitados com 400",
+    "resolved": true
+  },
+  {
+    "source": "06 - Arquitetura/Arquitetura da Solução",
+    "target": "10 - ADR/ADR-014 Validação de preço",
+    "resolved": true
+  },
+  {
+    "source": "06 - Arquitetura/Arquitetura da Solução",
+    "target": "10 - ADR/ADR-013 Estratégia de testes com Testcontainers",
+    "resolved": true
+  },
+  {
+    "source": "06 - Arquitetura/Persistência EF Core",
+    "target": "07 - Integrações/SQL Server",
+    "resolved": true
+  },
+  {
+    "source": "06 - Arquitetura/Persistência EF Core",
+    "target": "10 - ADR/ADR-008 Unicidade case-insensitive via collation",
+    "resolved": true
+  },
+  {
+    "source": "06 - Arquitetura/Persistência EF Core",
+    "target": "10 - ADR/ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor",
+    "resolved": true
+  },
+  {
+    "source": "06 - Arquitetura/Persistência EF Core",
+    "target": "10 - ADR/ADR-001 Remoção de categoria com produtos removidos",
+    "resolved": true
+  },
+  {
+    "source": "06 - Arquitetura/Tratamento de Erros e ProblemDetails",
+    "target": "10 - ADR/ADR-004 Minimal APIs com ProblemDetails",
+    "resolved": true
+  },
+  {
+    "source": "06 - Arquitetura/Tratamento de Erros e ProblemDetails",
+    "target": "06 - Arquitetura/Arquitetura da Solução",
+    "resolved": true
+  },
+  {
+    "source": "06 - Arquitetura/Tratamento de Erros e ProblemDetails",
+    "target": "10 - ADR/ADR-011 Rate limiting por IP",
+    "resolved": true
+  },
+  {
+    "source": "07 - Integrações/Provedor de Identidade JWT",
+    "target": "10 - ADR/ADR-010 Autenticação JWT com chave simétrica",
+    "resolved": true
+  },
+  {
+    "source": "07 - Integrações/Provedor de Identidade JWT",
+    "target": "14 - Planejamento/Provedor de identidade",
+    "resolved": true
+  },
+  {
+    "source": "07 - Integrações/Provedor de Identidade JWT",
+    "target": "10 - ADR/ADR-013 Estratégia de testes com Testcontainers",
+    "resolved": true
+  },
+  {
+    "source": "07 - Integrações/SQL Server",
+    "target": "10 - ADR/ADR-008 Unicidade case-insensitive via collation",
+    "resolved": true
+  },
+  {
+    "source": "07 - Integrações/SQL Server",
+    "target": "10 - ADR/ADR-013 Estratégia de testes com Testcontainers",
+    "resolved": true
+  },
+  {
+    "source": "07 - Integrações/SQL Server",
+    "target": "06 - Arquitetura/Persistência EF Core",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-001 Remoção de categoria com produtos removidos",
+    "target": "14 - Planejamento/Confirmar decisões que alteram comportamento",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-001 Remoção de categoria com produtos removidos",
+    "target": "14 - Planejamento/Auditoria de produtos removidos",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-001 Remoção de categoria com produtos removidos",
+    "target": "06 - Arquitetura/Persistência EF Core",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-001 Remoção de categoria com produtos removidos",
+    "target": "10 - ADR/ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-001 Remoção de categoria com produtos removidos",
+    "target": "06 - Arquitetura/Arquitetura da Solução",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-002 Estrutura da solução e dependências",
+    "target": "06 - Arquitetura/Arquitetura da Solução",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-003 Casos de uso, Result pattern e CQRS leve",
+    "target": "06 - Arquitetura/Arquitetura da Solução",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-003 Casos de uso, Result pattern e CQRS leve",
+    "target": "06 - Arquitetura/Tratamento de Erros e ProblemDetails",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-004 Minimal APIs com ProblemDetails",
+    "target": "06 - Arquitetura/Tratamento de Erros e ProblemDetails",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-004 Minimal APIs com ProblemDetails",
+    "target": "10 - ADR/ADR-003 Casos de uso, Result pattern e CQRS leve",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-005 Contrato de Categoria",
+    "target": "10 - ADR/ADR-007 Espaços nas pontas rejeitados com 400",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-005 Contrato de Categoria",
+    "target": "10 - ADR/ADR-001 Remoção de categoria com produtos removidos",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-005 Contrato de Categoria",
+    "target": "10 - ADR/ADR-009 Paginação, filtros e ordenação",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-006 Contrato de Produto",
+    "target": "14 - Planejamento/Confirmar decisões que alteram comportamento",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-006 Contrato de Produto",
+    "target": "10 - ADR/ADR-007 Espaços nas pontas rejeitados com 400",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-006 Contrato de Produto",
+    "target": "10 - ADR/ADR-014 Validação de preço",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-006 Contrato de Produto",
+    "target": "06 - Arquitetura/Tratamento de Erros e ProblemDetails",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-007 Espaços nas pontas rejeitados com 400",
+    "target": "14 - Planejamento/Confirmar decisões que alteram comportamento",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-007 Espaços nas pontas rejeitados com 400",
+    "target": "10 - ADR/ADR-006 Contrato de Produto",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-007 Espaços nas pontas rejeitados com 400",
+    "target": "10 - ADR/ADR-005 Contrato de Categoria",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-008 Unicidade case-insensitive via collation",
+    "target": "10 - ADR/ADR-013 Estratégia de testes com Testcontainers",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-008 Unicidade case-insensitive via collation",
+    "target": "06 - Arquitetura/Persistência EF Core",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-008 Unicidade case-insensitive via collation",
+    "target": "07 - Integrações/SQL Server",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-009 Paginação, filtros e ordenação",
+    "target": "14 - Planejamento/Listagem de produtos ativos e inativos",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-009 Paginação, filtros e ordenação",
+    "target": "10 - ADR/ADR-005 Contrato de Categoria",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-009 Paginação, filtros e ordenação",
+    "target": "10 - ADR/ADR-006 Contrato de Produto",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-010 Autenticação JWT com chave simétrica",
+    "target": "14 - Planejamento/Provedor de identidade",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-010 Autenticação JWT com chave simétrica",
+    "target": "07 - Integrações/Provedor de Identidade JWT",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-010 Autenticação JWT com chave simétrica",
+    "target": "10 - ADR/ADR-011 Rate limiting por IP",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-011 Rate limiting por IP",
+    "target": "14 - Planejamento/Rate limit atrás de proxy e valor definitivo",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-011 Rate limiting por IP",
+    "target": "10 - ADR/ADR-010 Autenticação JWT com chave simétrica",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-011 Rate limiting por IP",
+    "target": "06 - Arquitetura/Tratamento de Erros e ProblemDetails",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-012 Sem concorrência otimista",
+    "target": "14 - Planejamento/Concorrência otimista",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-012 Sem concorrência otimista",
+    "target": "10 - ADR/ADR-006 Contrato de Produto",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-013 Estratégia de testes com Testcontainers",
+    "target": "10 - ADR/ADR-008 Unicidade case-insensitive via collation",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-013 Estratégia de testes com Testcontainers",
+    "target": "10 - ADR/ADR-001 Remoção de categoria com produtos removidos",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-013 Estratégia de testes com Testcontainers",
+    "target": "07 - Integrações/SQL Server",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-014 Validação de preço",
+    "target": "10 - ADR/ADR-006 Contrato de Produto",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor",
+    "target": "10 - ADR/ADR-001 Remoção de categoria com produtos removidos",
+    "resolved": true
+  },
+  {
+    "source": "10 - ADR/ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor",
+    "target": "06 - Arquitetura/Persistência EF Core",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Auditoria de produtos removidos",
+    "target": "10 - ADR/ADR-001 Remoção de categoria com produtos removidos",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Concorrência otimista",
+    "target": "10 - ADR/ADR-012 Sem concorrência otimista",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Concorrência otimista",
+    "target": "10 - ADR/ADR-006 Contrato de Produto",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Confirmar decisões que alteram comportamento",
+    "target": "10 - ADR/ADR-001 Remoção de categoria com produtos removidos",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Confirmar decisões que alteram comportamento",
+    "target": "10 - ADR/ADR-006 Contrato de Produto",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Confirmar decisões que alteram comportamento",
+    "target": "10 - ADR/ADR-007 Espaços nas pontas rejeitados com 400",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Health checks e observabilidade",
+    "target": "06 - Arquitetura/Tratamento de Erros e ProblemDetails",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "target": "10 - ADR/ADR-002 Estrutura da solução e dependências",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "target": "10 - ADR/ADR-003 Casos de uso, Result pattern e CQRS leve",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "target": "06 - Arquitetura/Persistência EF Core",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "target": "06 - Arquitetura/Tratamento de Erros e ProblemDetails",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "target": "07 - Integrações/Provedor de Identidade JWT",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "target": "10 - ADR/ADR-013 Estratégia de testes com Testcontainers",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "target": "06 - Arquitetura/Arquitetura da Solução",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "target": "14 - Planejamento/Confirmar decisões que alteram comportamento",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Listagem de produtos ativos e inativos",
+    "target": "10 - ADR/ADR-009 Paginação, filtros e ordenação",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Provedor de identidade",
+    "target": "10 - ADR/ADR-010 Autenticação JWT com chave simétrica",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Provedor de identidade",
+    "target": "07 - Integrações/Provedor de Identidade JWT",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Rate limit atrás de proxy e valor definitivo",
+    "target": "10 - ADR/ADR-011 Rate limiting por IP",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "06 - Arquitetura/Arquitetura da Solução",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "06 - Arquitetura/Persistência EF Core",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "06 - Arquitetura/Tratamento de Erros e ProblemDetails",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "07 - Integrações/Provedor de Identidade JWT",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "07 - Integrações/SQL Server",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "10 - ADR/ADR-001 Remoção de categoria com produtos removidos",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "10 - ADR/ADR-002 Estrutura da solução e dependências",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "10 - ADR/ADR-003 Casos de uso, Result pattern e CQRS leve",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "10 - ADR/ADR-004 Minimal APIs com ProblemDetails",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "10 - ADR/ADR-005 Contrato de Categoria",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "10 - ADR/ADR-006 Contrato de Produto",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "10 - ADR/ADR-007 Espaços nas pontas rejeitados com 400",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "10 - ADR/ADR-008 Unicidade case-insensitive via collation",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "10 - ADR/ADR-009 Paginação, filtros e ordenação",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "10 - ADR/ADR-010 Autenticação JWT com chave simétrica",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "10 - ADR/ADR-011 Rate limiting por IP",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "10 - ADR/ADR-012 Sem concorrência otimista",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "10 - ADR/ADR-013 Estratégia de testes com Testcontainers",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "10 - ADR/ADR-014 Validação de preço",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "10 - ADR/ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "14 - Planejamento/Confirmar decisões que alteram comportamento",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "14 - Planejamento/Provedor de identidade",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "14 - Planejamento/Rate limit atrás de proxy e valor definitivo",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "14 - Planejamento/Concorrência otimista",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "14 - Planejamento/Auditoria de produtos removidos",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "14 - Planejamento/Listagem de produtos ativos e inativos",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "14 - Planejamento/Health checks e observabilidade",
+    "resolved": true
+  }
+]

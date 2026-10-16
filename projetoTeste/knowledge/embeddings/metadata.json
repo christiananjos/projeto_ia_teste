@@ -1,0 +1,1334 @@
+[
+  {
+    "chunkId": "06-arquitetura-arquitetura-da-solucao--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/06 - Arquitetura/Arquitetura da Solução.md",
+    "heading": "Arquitetura da Solução",
+    "order": 1,
+    "charCount": 528,
+    "file": "knowledge/embeddings/chunks/06-arquitetura-arquitetura-da-solucao--1.md"
+  },
+  {
+    "chunkId": "06-arquitetura-arquitetura-da-solucao--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/06 - Arquitetura/Arquitetura da Solução.md",
+    "heading": "Projetos",
+    "order": 2,
+    "charCount": 628,
+    "file": "knowledge/embeddings/chunks/06-arquitetura-arquitetura-da-solucao--2.md"
+  },
+  {
+    "chunkId": "06-arquitetura-arquitetura-da-solucao--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/06 - Arquitetura/Arquitetura da Solução.md",
+    "heading": "Padrões",
+    "order": 3,
+    "charCount": 919,
+    "file": "knowledge/embeddings/chunks/06-arquitetura-arquitetura-da-solucao--3.md"
+  },
+  {
+    "chunkId": "06-arquitetura-arquitetura-da-solucao--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/06 - Arquitetura/Arquitetura da Solução.md",
+    "heading": "Casos de uso",
+    "order": 4,
+    "charCount": 389,
+    "file": "knowledge/embeddings/chunks/06-arquitetura-arquitetura-da-solucao--4.md"
+  },
+  {
+    "chunkId": "06-arquitetura-arquitetura-da-solucao--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/06 - Arquitetura/Arquitetura da Solução.md",
+    "heading": "Contratos",
+    "order": 5,
+    "charCount": 271,
+    "file": "knowledge/embeddings/chunks/06-arquitetura-arquitetura-da-solucao--5.md"
+  },
+  {
+    "chunkId": "06-arquitetura-arquitetura-da-solucao--6",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/06 - Arquitetura/Arquitetura da Solução.md",
+    "heading": "Testes",
+    "order": 6,
+    "charCount": 166,
+    "file": "knowledge/embeddings/chunks/06-arquitetura-arquitetura-da-solucao--6.md"
+  },
+  {
+    "chunkId": "06-arquitetura-persistencia-ef-core--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/06 - Arquitetura/Persistência EF Core.md",
+    "heading": "Persistência EF Core",
+    "order": 1,
+    "charCount": 296,
+    "file": "knowledge/embeddings/chunks/06-arquitetura-persistencia-ef-core--1.md"
+  },
+  {
+    "chunkId": "06-arquitetura-persistencia-ef-core--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/06 - Arquitetura/Persistência EF Core.md",
+    "heading": "Tabelas",
+    "order": 2,
+    "charCount": 507,
+    "file": "knowledge/embeddings/chunks/06-arquitetura-persistencia-ef-core--2.md"
+  },
+  {
+    "chunkId": "06-arquitetura-persistencia-ef-core--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/06 - Arquitetura/Persistência EF Core.md",
+    "heading": "Índices",
+    "order": 3,
+    "charCount": 313,
+    "file": "knowledge/embeddings/chunks/06-arquitetura-persistencia-ef-core--3.md"
+  },
+  {
+    "chunkId": "06-arquitetura-persistencia-ef-core--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/06 - Arquitetura/Persistência EF Core.md",
+    "heading": "Comportamentos",
+    "order": 4,
+    "charCount": 690,
+    "file": "knowledge/embeddings/chunks/06-arquitetura-persistencia-ef-core--4.md"
+  },
+  {
+    "chunkId": "06-arquitetura-tratamento-de-erros-e-problemdetails--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/06 - Arquitetura/Tratamento de Erros e ProblemDetails.md",
+    "heading": "Tratamento de Erros e ProblemDetails",
+    "order": 1,
+    "charCount": 314,
+    "file": "knowledge/embeddings/chunks/06-arquitetura-tratamento-de-erros-e-problemdetails--1.md"
+  },
+  {
+    "chunkId": "06-arquitetura-tratamento-de-erros-e-problemdetails--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/06 - Arquitetura/Tratamento de Erros e ProblemDetails.md",
+    "heading": null,
+    "order": 2,
+    "charCount": 744,
+    "file": "knowledge/embeddings/chunks/06-arquitetura-tratamento-de-erros-e-problemdetails--2.md"
+  },
+  {
+    "chunkId": "06-arquitetura-tratamento-de-erros-e-problemdetails--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/06 - Arquitetura/Tratamento de Erros e ProblemDetails.md",
+    "heading": null,
+    "order": 3,
+    "charCount": 170,
+    "file": "knowledge/embeddings/chunks/06-arquitetura-tratamento-de-erros-e-problemdetails--3.md"
+  },
+  {
+    "chunkId": "07-integracoes-provedor-de-identidade-jwt--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/07 - Integrações/Provedor de Identidade JWT.md",
+    "heading": "Provedor de Identidade JWT",
+    "order": 1,
+    "charCount": 401,
+    "file": "knowledge/embeddings/chunks/07-integracoes-provedor-de-identidade-jwt--1.md"
+  },
+  {
+    "chunkId": "07-integracoes-provedor-de-identidade-jwt--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/07 - Integrações/Provedor de Identidade JWT.md",
+    "heading": null,
+    "order": 2,
+    "charCount": 780,
+    "file": "knowledge/embeddings/chunks/07-integracoes-provedor-de-identidade-jwt--2.md"
+  },
+  {
+    "chunkId": "07-integracoes-sql-server--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/07 - Integrações/SQL Server.md",
+    "heading": "SQL Server",
+    "order": 1,
+    "charCount": 257,
+    "file": "knowledge/embeddings/chunks/07-integracoes-sql-server--1.md"
+  },
+  {
+    "chunkId": "07-integracoes-sql-server--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/07 - Integrações/SQL Server.md",
+    "heading": null,
+    "order": 2,
+    "charCount": 625,
+    "file": "knowledge/embeddings/chunks/07-integracoes-sql-server--2.md"
+  },
+  {
+    "chunkId": "10-adr-adr-001-remocao-de-categoria-com-produtos-removidos--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-001 Remoção de categoria com produtos removidos.md",
+    "heading": "ADR-001: Remoção de categoria com produtos só removidos logicamente",
+    "order": 1,
+    "charCount": 285,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-001-remocao-de-categoria-com-produtos-removidos--1.md"
+  },
+  {
+    "chunkId": "10-adr-adr-001-remocao-de-categoria-com-produtos-removidos--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-001 Remoção de categoria com produtos removidos.md",
+    "heading": "Status",
+    "order": 2,
+    "charCount": 136,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-001-remocao-de-categoria-com-produtos-removidos--2.md"
+  },
+  {
+    "chunkId": "10-adr-adr-001-remocao-de-categoria-com-produtos-removidos--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-001 Remoção de categoria com produtos removidos.md",
+    "heading": "Contexto",
+    "order": 3,
+    "charCount": 369,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-001-remocao-de-categoria-com-produtos-removidos--3.md"
+  },
+  {
+    "chunkId": "10-adr-adr-001-remocao-de-categoria-com-produtos-removidos--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-001 Remoção de categoria com produtos removidos.md",
+    "heading": "Decisão",
+    "order": 4,
+    "charCount": 394,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-001-remocao-de-categoria-com-produtos-removidos--4.md"
+  },
+  {
+    "chunkId": "10-adr-adr-001-remocao-de-categoria-com-produtos-removidos--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-001 Remoção de categoria com produtos removidos.md",
+    "heading": "Alternativas Consideradas",
+    "order": 5,
+    "charCount": 435,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-001-remocao-de-categoria-com-produtos-removidos--5.md"
+  },
+  {
+    "chunkId": "10-adr-adr-001-remocao-de-categoria-com-produtos-removidos--6",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-001 Remoção de categoria com produtos removidos.md",
+    "heading": "Consequências",
+    "order": 6,
+    "charCount": 308,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-001-remocao-de-categoria-com-produtos-removidos--6.md"
+  },
+  {
+    "chunkId": "10-adr-adr-001-remocao-de-categoria-com-produtos-removidos--7",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-001 Remoção de categoria com produtos removidos.md",
+    "heading": "Relacionado",
+    "order": 7,
+    "charCount": 132,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-001-remocao-de-categoria-com-produtos-removidos--7.md"
+  },
+  {
+    "chunkId": "10-adr-adr-002-estrutura-da-solucao-e-dependencias--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-002 Estrutura da solução e dependências.md",
+    "heading": "ADR-002: Estrutura da solução e dependências entre camadas",
+    "order": 1,
+    "charCount": 352,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-002-estrutura-da-solucao-e-dependencias--1.md"
+  },
+  {
+    "chunkId": "10-adr-adr-002-estrutura-da-solucao-e-dependencias--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-002 Estrutura da solução e dependências.md",
+    "heading": "Status",
+    "order": 2,
+    "charCount": 17,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-002-estrutura-da-solucao-e-dependencias--2.md"
+  },
+  {
+    "chunkId": "10-adr-adr-002-estrutura-da-solucao-e-dependencias--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-002 Estrutura da solução e dependências.md",
+    "heading": "Contexto",
+    "order": 3,
+    "charCount": 155,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-002-estrutura-da-solucao-e-dependencias--3.md"
+  },
+  {
+    "chunkId": "10-adr-adr-002-estrutura-da-solucao-e-dependencias--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-002 Estrutura da solução e dependências.md",
+    "heading": "Decisão",
+    "order": 4,
+    "charCount": 429,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-002-estrutura-da-solucao-e-dependencias--4.md"
+  },
+  {
+    "chunkId": "10-adr-adr-002-estrutura-da-solucao-e-dependencias--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-002 Estrutura da solução e dependências.md",
+    "heading": "Alternativas Consideradas",
+    "order": 5,
+    "charCount": 240,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-002-estrutura-da-solucao-e-dependencias--5.md"
+  },
+  {
+    "chunkId": "10-adr-adr-002-estrutura-da-solucao-e-dependencias--6",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-002 Estrutura da solução e dependências.md",
+    "heading": "Consequências",
+    "order": 6,
+    "charCount": 78,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-002-estrutura-da-solucao-e-dependencias--6.md"
+  },
+  {
+    "chunkId": "10-adr-adr-002-estrutura-da-solucao-e-dependencias--7",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-002 Estrutura da solução e dependências.md",
+    "heading": "Relacionado",
+    "order": 7,
+    "charCount": 44,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-002-estrutura-da-solucao-e-dependencias--7.md"
+  },
+  {
+    "chunkId": "10-adr-adr-003-casos-de-uso-result-pattern-e-cqrs-leve--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-003 Casos de uso, Result pattern e CQRS leve.md",
+    "heading": "ADR-003: Casos de uso explícitos, Result pattern e CQRS leve (sem MediatR)",
+    "order": 1,
+    "charCount": 262,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-003-casos-de-uso-result-pattern-e-cqrs-leve--1.md"
+  },
+  {
+    "chunkId": "10-adr-adr-003-casos-de-uso-result-pattern-e-cqrs-leve--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-003 Casos de uso, Result pattern e CQRS leve.md",
+    "heading": "Status",
+    "order": 2,
+    "charCount": 17,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-003-casos-de-uso-result-pattern-e-cqrs-leve--2.md"
+  },
+  {
+    "chunkId": "10-adr-adr-003-casos-de-uso-result-pattern-e-cqrs-leve--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-003 Casos de uso, Result pattern e CQRS leve.md",
+    "heading": "Contexto",
+    "order": 3,
+    "charCount": 93,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-003-casos-de-uso-result-pattern-e-cqrs-leve--3.md"
+  },
+  {
+    "chunkId": "10-adr-adr-003-casos-de-uso-result-pattern-e-cqrs-leve--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-003 Casos de uso, Result pattern e CQRS leve.md",
+    "heading": "Decisão",
+    "order": 4,
+    "charCount": 446,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-003-casos-de-uso-result-pattern-e-cqrs-leve--4.md"
+  },
+  {
+    "chunkId": "10-adr-adr-003-casos-de-uso-result-pattern-e-cqrs-leve--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-003 Casos de uso, Result pattern e CQRS leve.md",
+    "heading": "Alternativas Consideradas",
+    "order": 5,
+    "charCount": 287,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-003-casos-de-uso-result-pattern-e-cqrs-leve--5.md"
+  },
+  {
+    "chunkId": "10-adr-adr-003-casos-de-uso-result-pattern-e-cqrs-leve--6",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-003 Casos de uso, Result pattern e CQRS leve.md",
+    "heading": "Consequências",
+    "order": 6,
+    "charCount": 105,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-003-casos-de-uso-result-pattern-e-cqrs-leve--6.md"
+  },
+  {
+    "chunkId": "10-adr-adr-003-casos-de-uso-result-pattern-e-cqrs-leve--7",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-003 Casos de uso, Result pattern e CQRS leve.md",
+    "heading": "Relacionado",
+    "order": 7,
+    "charCount": 87,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-003-casos-de-uso-result-pattern-e-cqrs-leve--7.md"
+  },
+  {
+    "chunkId": "10-adr-adr-004-minimal-apis-com-problemdetails--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-004 Minimal APIs com ProblemDetails.md",
+    "heading": "ADR-004: Minimal APIs com ProblemDetails (RFC 9457)",
+    "order": 1,
+    "charCount": 228,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-004-minimal-apis-com-problemdetails--1.md"
+  },
+  {
+    "chunkId": "10-adr-adr-004-minimal-apis-com-problemdetails--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-004 Minimal APIs com ProblemDetails.md",
+    "heading": "Status",
+    "order": 2,
+    "charCount": 17,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-004-minimal-apis-com-problemdetails--2.md"
+  },
+  {
+    "chunkId": "10-adr-adr-004-minimal-apis-com-problemdetails--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-004 Minimal APIs com ProblemDetails.md",
+    "heading": "Contexto",
+    "order": 3,
+    "charCount": 73,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-004-minimal-apis-com-problemdetails--3.md"
+  },
+  {
+    "chunkId": "10-adr-adr-004-minimal-apis-com-problemdetails--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-004 Minimal APIs com ProblemDetails.md",
+    "heading": "Decisão",
+    "order": 4,
+    "charCount": 417,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-004-minimal-apis-com-problemdetails--4.md"
+  },
+  {
+    "chunkId": "10-adr-adr-004-minimal-apis-com-problemdetails--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-004 Minimal APIs com ProblemDetails.md",
+    "heading": "Alternativas Consideradas",
+    "order": 5,
+    "charCount": 121,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-004-minimal-apis-com-problemdetails--5.md"
+  },
+  {
+    "chunkId": "10-adr-adr-004-minimal-apis-com-problemdetails--6",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-004 Minimal APIs com ProblemDetails.md",
+    "heading": "Consequências",
+    "order": 6,
+    "charCount": 82,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-004-minimal-apis-com-problemdetails--6.md"
+  },
+  {
+    "chunkId": "10-adr-adr-004-minimal-apis-com-problemdetails--7",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-004 Minimal APIs com ProblemDetails.md",
+    "heading": "Relacionado",
+    "order": 7,
+    "charCount": 70,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-004-minimal-apis-com-problemdetails--7.md"
+  },
+  {
+    "chunkId": "10-adr-adr-005-contrato-de-categoria--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-005 Contrato de Categoria.md",
+    "heading": "ADR-005: Contrato de Categoria",
+    "order": 1,
+    "charCount": 237,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-005-contrato-de-categoria--1.md"
+  },
+  {
+    "chunkId": "10-adr-adr-005-contrato-de-categoria--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-005 Contrato de Categoria.md",
+    "heading": "Status",
+    "order": 2,
+    "charCount": 17,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-005-contrato-de-categoria--2.md"
+  },
+  {
+    "chunkId": "10-adr-adr-005-contrato-de-categoria--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-005 Contrato de Categoria.md",
+    "heading": "Contexto",
+    "order": 3,
+    "charCount": 120,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-005-contrato-de-categoria--3.md"
+  },
+  {
+    "chunkId": "10-adr-adr-005-contrato-de-categoria--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-005 Contrato de Categoria.md",
+    "heading": "Decisão",
+    "order": 4,
+    "charCount": 893,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-005-contrato-de-categoria--4.md"
+  },
+  {
+    "chunkId": "10-adr-adr-005-contrato-de-categoria--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-005 Contrato de Categoria.md",
+    "heading": "Alternativas Consideradas",
+    "order": 5,
+    "charCount": 244,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-005-contrato-de-categoria--5.md"
+  },
+  {
+    "chunkId": "10-adr-adr-005-contrato-de-categoria--6",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-005 Contrato de Categoria.md",
+    "heading": "Consequências",
+    "order": 6,
+    "charCount": 78,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-005-contrato-de-categoria--6.md"
+  },
+  {
+    "chunkId": "10-adr-adr-005-contrato-de-categoria--7",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-005 Contrato de Categoria.md",
+    "heading": "Relacionado",
+    "order": 7,
+    "charCount": 118,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-005-contrato-de-categoria--7.md"
+  },
+  {
+    "chunkId": "10-adr-adr-006-contrato-de-produto--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-006 Contrato de Produto.md",
+    "heading": "ADR-006: Contrato de Produto",
+    "order": 1,
+    "charCount": 286,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-006-contrato-de-produto--1.md"
+  },
+  {
+    "chunkId": "10-adr-adr-006-contrato-de-produto--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-006 Contrato de Produto.md",
+    "heading": "Status",
+    "order": 2,
+    "charCount": 113,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-006-contrato-de-produto--2.md"
+  },
+  {
+    "chunkId": "10-adr-adr-006-contrato-de-produto--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-006 Contrato de Produto.md",
+    "heading": "Contexto",
+    "order": 3,
+    "charCount": 157,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-006-contrato-de-produto--3.md"
+  },
+  {
+    "chunkId": "10-adr-adr-006-contrato-de-produto--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-006 Contrato de Produto.md",
+    "heading": "Decisão",
+    "order": 4,
+    "charCount": 934,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-006-contrato-de-produto--4.md"
+  },
+  {
+    "chunkId": "10-adr-adr-006-contrato-de-produto--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-006 Contrato de Produto.md",
+    "heading": "Alternativas Consideradas",
+    "order": 5,
+    "charCount": 232,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-006-contrato-de-produto--5.md"
+  },
+  {
+    "chunkId": "10-adr-adr-006-contrato-de-produto--6",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-006 Contrato de Produto.md",
+    "heading": "Consequências",
+    "order": 6,
+    "charCount": 93,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-006-contrato-de-produto--6.md"
+  },
+  {
+    "chunkId": "10-adr-adr-006-contrato-de-produto--7",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-006 Contrato de Produto.md",
+    "heading": "Relacionado",
+    "order": 7,
+    "charCount": 143,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-006-contrato-de-produto--7.md"
+  },
+  {
+    "chunkId": "10-adr-adr-007-espacos-nas-pontas-rejeitados-com-400--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-007 Espaços nas pontas rejeitados com 400.md",
+    "heading": "ADR-007: Espaços nas pontas do nome rejeitados com 400",
+    "order": 1,
+    "charCount": 260,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-007-espacos-nas-pontas-rejeitados-com-400--1.md"
+  },
+  {
+    "chunkId": "10-adr-adr-007-espacos-nas-pontas-rejeitados-com-400--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-007 Espaços nas pontas rejeitados com 400.md",
+    "heading": "Status",
+    "order": 2,
+    "charCount": 95,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-007-espacos-nas-pontas-rejeitados-com-400--2.md"
+  },
+  {
+    "chunkId": "10-adr-adr-007-espacos-nas-pontas-rejeitados-com-400--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-007 Espaços nas pontas rejeitados com 400.md",
+    "heading": "Contexto",
+    "order": 3,
+    "charCount": 113,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-007-espacos-nas-pontas-rejeitados-com-400--3.md"
+  },
+  {
+    "chunkId": "10-adr-adr-007-espacos-nas-pontas-rejeitados-com-400--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-007 Espaços nas pontas rejeitados com 400.md",
+    "heading": "Decisão",
+    "order": 4,
+    "charCount": 257,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-007-espacos-nas-pontas-rejeitados-com-400--4.md"
+  },
+  {
+    "chunkId": "10-adr-adr-007-espacos-nas-pontas-rejeitados-com-400--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-007 Espaços nas pontas rejeitados com 400.md",
+    "heading": "Alternativas Consideradas",
+    "order": 5,
+    "charCount": 124,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-007-espacos-nas-pontas-rejeitados-com-400--5.md"
+  },
+  {
+    "chunkId": "10-adr-adr-007-espacos-nas-pontas-rejeitados-com-400--6",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-007 Espaços nas pontas rejeitados com 400.md",
+    "heading": "Consequências",
+    "order": 6,
+    "charCount": 81,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-007-espacos-nas-pontas-rejeitados-com-400--6.md"
+  },
+  {
+    "chunkId": "10-adr-adr-007-espacos-nas-pontas-rejeitados-com-400--7",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-007 Espaços nas pontas rejeitados com 400.md",
+    "heading": "Relacionado",
+    "order": 7,
+    "charCount": 85,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-007-espacos-nas-pontas-rejeitados-com-400--7.md"
+  },
+  {
+    "chunkId": "10-adr-adr-008-unicidade-case-insensitive-via-collation--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-008 Unicidade case-insensitive via collation.md",
+    "heading": "ADR-008: Unicidade sem diferenciar maiúsculas via collation e índices filtrados",
+    "order": 1,
+    "charCount": 295,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-008-unicidade-case-insensitive-via-collation--1.md"
+  },
+  {
+    "chunkId": "10-adr-adr-008-unicidade-case-insensitive-via-collation--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-008 Unicidade case-insensitive via collation.md",
+    "heading": "Status",
+    "order": 2,
+    "charCount": 17,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-008-unicidade-case-insensitive-via-collation--2.md"
+  },
+  {
+    "chunkId": "10-adr-adr-008-unicidade-case-insensitive-via-collation--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-008 Unicidade case-insensitive via collation.md",
+    "heading": "Contexto",
+    "order": 3,
+    "charCount": 138,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-008-unicidade-case-insensitive-via-collation--3.md"
+  },
+  {
+    "chunkId": "10-adr-adr-008-unicidade-case-insensitive-via-collation--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-008 Unicidade case-insensitive via collation.md",
+    "heading": "Decisão",
+    "order": 4,
+    "charCount": 666,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-008-unicidade-case-insensitive-via-collation--4.md"
+  },
+  {
+    "chunkId": "10-adr-adr-008-unicidade-case-insensitive-via-collation--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-008 Unicidade case-insensitive via collation.md",
+    "heading": "Alternativas Consideradas",
+    "order": 5,
+    "charCount": 212,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-008-unicidade-case-insensitive-via-collation--5.md"
+  },
+  {
+    "chunkId": "10-adr-adr-008-unicidade-case-insensitive-via-collation--6",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-008 Unicidade case-insensitive via collation.md",
+    "heading": "Consequências",
+    "order": 6,
+    "charCount": 150,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-008-unicidade-case-insensitive-via-collation--6.md"
+  },
+  {
+    "chunkId": "10-adr-adr-008-unicidade-case-insensitive-via-collation--7",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-008 Unicidade case-insensitive via collation.md",
+    "heading": "Relacionado",
+    "order": 7,
+    "charCount": 59,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-008-unicidade-case-insensitive-via-collation--7.md"
+  },
+  {
+    "chunkId": "10-adr-adr-009-paginacao-filtros-e-ordenacao--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-009 Paginação, filtros e ordenação.md",
+    "heading": "ADR-009: Paginação, filtros e ordenação",
+    "order": 1,
+    "charCount": 240,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-009-paginacao-filtros-e-ordenacao--1.md"
+  },
+  {
+    "chunkId": "10-adr-adr-009-paginacao-filtros-e-ordenacao--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-009 Paginação, filtros e ordenação.md",
+    "heading": "Status",
+    "order": 2,
+    "charCount": 17,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-009-paginacao-filtros-e-ordenacao--2.md"
+  },
+  {
+    "chunkId": "10-adr-adr-009-paginacao-filtros-e-ordenacao--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-009 Paginação, filtros e ordenação.md",
+    "heading": "Contexto",
+    "order": 3,
+    "charCount": 152,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-009-paginacao-filtros-e-ordenacao--3.md"
+  },
+  {
+    "chunkId": "10-adr-adr-009-paginacao-filtros-e-ordenacao--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-009 Paginação, filtros e ordenação.md",
+    "heading": "Decisão",
+    "order": 4,
+    "charCount": 651,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-009-paginacao-filtros-e-ordenacao--4.md"
+  },
+  {
+    "chunkId": "10-adr-adr-009-paginacao-filtros-e-ordenacao--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-009 Paginação, filtros e ordenação.md",
+    "heading": "Alternativas Consideradas",
+    "order": 5,
+    "charCount": 156,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-009-paginacao-filtros-e-ordenacao--5.md"
+  },
+  {
+    "chunkId": "10-adr-adr-009-paginacao-filtros-e-ordenacao--6",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-009 Paginação, filtros e ordenação.md",
+    "heading": "Consequências",
+    "order": 6,
+    "charCount": 73,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-009-paginacao-filtros-e-ordenacao--6.md"
+  },
+  {
+    "chunkId": "10-adr-adr-009-paginacao-filtros-e-ordenacao--7",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-009 Paginação, filtros e ordenação.md",
+    "heading": "Relacionado",
+    "order": 7,
+    "charCount": 85,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-009-paginacao-filtros-e-ordenacao--7.md"
+  },
+  {
+    "chunkId": "10-adr-adr-010-autenticacao-jwt-com-chave-simetrica--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-010 Autenticação JWT com chave simétrica.md",
+    "heading": "ADR-010: Autenticação JWT com chave simétrica e sem endpoint de login",
+    "order": 1,
+    "charCount": 304,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-010-autenticacao-jwt-com-chave-simetrica--1.md"
+  },
+  {
+    "chunkId": "10-adr-adr-010-autenticacao-jwt-com-chave-simetrica--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-010 Autenticação JWT com chave simétrica.md",
+    "heading": "Status",
+    "order": 2,
+    "charCount": 92,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-010-autenticacao-jwt-com-chave-simetrica--2.md"
+  },
+  {
+    "chunkId": "10-adr-adr-010-autenticacao-jwt-com-chave-simetrica--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-010 Autenticação JWT com chave simétrica.md",
+    "heading": "Contexto",
+    "order": 3,
+    "charCount": 114,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-010-autenticacao-jwt-com-chave-simetrica--3.md"
+  },
+  {
+    "chunkId": "10-adr-adr-010-autenticacao-jwt-com-chave-simetrica--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-010 Autenticação JWT com chave simétrica.md",
+    "heading": "Decisão",
+    "order": 4,
+    "charCount": 430,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-010-autenticacao-jwt-com-chave-simetrica--4.md"
+  },
+  {
+    "chunkId": "10-adr-adr-010-autenticacao-jwt-com-chave-simetrica--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-010 Autenticação JWT com chave simétrica.md",
+    "heading": "Alternativas Consideradas",
+    "order": 5,
+    "charCount": 136,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-010-autenticacao-jwt-com-chave-simetrica--5.md"
+  },
+  {
+    "chunkId": "10-adr-adr-010-autenticacao-jwt-com-chave-simetrica--6",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-010 Autenticação JWT com chave simétrica.md",
+    "heading": "Consequências",
+    "order": 6,
+    "charCount": 152,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-010-autenticacao-jwt-com-chave-simetrica--6.md"
+  },
+  {
+    "chunkId": "10-adr-adr-010-autenticacao-jwt-com-chave-simetrica--7",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-010 Autenticação JWT com chave simétrica.md",
+    "heading": "Relacionado",
+    "order": 7,
+    "charCount": 83,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-010-autenticacao-jwt-com-chave-simetrica--7.md"
+  },
+  {
+    "chunkId": "10-adr-adr-011-rate-limiting-por-ip--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-011 Rate limiting por IP.md",
+    "heading": "ADR-011: Rate limiting fixed window por IP",
+    "order": 1,
+    "charCount": 275,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-011-rate-limiting-por-ip--1.md"
+  },
+  {
+    "chunkId": "10-adr-adr-011-rate-limiting-por-ip--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-011 Rate limiting por IP.md",
+    "heading": "Status",
+    "order": 2,
+    "charCount": 121,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-011-rate-limiting-por-ip--2.md"
+  },
+  {
+    "chunkId": "10-adr-adr-011-rate-limiting-por-ip--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-011 Rate limiting por IP.md",
+    "heading": "Contexto",
+    "order": 3,
+    "charCount": 89,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-011-rate-limiting-por-ip--3.md"
+  },
+  {
+    "chunkId": "10-adr-adr-011-rate-limiting-por-ip--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-011 Rate limiting por IP.md",
+    "heading": "Decisão",
+    "order": 4,
+    "charCount": 317,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-011-rate-limiting-por-ip--4.md"
+  },
+  {
+    "chunkId": "10-adr-adr-011-rate-limiting-por-ip--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-011 Rate limiting por IP.md",
+    "heading": "Alternativas Consideradas",
+    "order": 5,
+    "charCount": 178,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-011-rate-limiting-por-ip--5.md"
+  },
+  {
+    "chunkId": "10-adr-adr-011-rate-limiting-por-ip--6",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-011 Rate limiting por IP.md",
+    "heading": "Consequências",
+    "order": 6,
+    "charCount": 158,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-011-rate-limiting-por-ip--6.md"
+  },
+  {
+    "chunkId": "10-adr-adr-011-rate-limiting-por-ip--7",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-011 Rate limiting por IP.md",
+    "heading": "Relacionado",
+    "order": 7,
+    "charCount": 109,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-011-rate-limiting-por-ip--7.md"
+  },
+  {
+    "chunkId": "10-adr-adr-012-sem-concorrencia-otimista--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-012 Sem concorrência otimista.md",
+    "heading": "ADR-012: Sem concorrência otimista nesta versão",
+    "order": 1,
+    "charCount": 232,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-012-sem-concorrencia-otimista--1.md"
+  },
+  {
+    "chunkId": "10-adr-adr-012-sem-concorrencia-otimista--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-012 Sem concorrência otimista.md",
+    "heading": "Status",
+    "order": 2,
+    "charCount": 70,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-012-sem-concorrencia-otimista--2.md"
+  },
+  {
+    "chunkId": "10-adr-adr-012-sem-concorrencia-otimista--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-012 Sem concorrência otimista.md",
+    "heading": "Contexto",
+    "order": 3,
+    "charCount": 57,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-012-sem-concorrencia-otimista--3.md"
+  },
+  {
+    "chunkId": "10-adr-adr-012-sem-concorrencia-otimista--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-012 Sem concorrência otimista.md",
+    "heading": "Decisão",
+    "order": 4,
+    "charCount": 138,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-012-sem-concorrencia-otimista--4.md"
+  },
+  {
+    "chunkId": "10-adr-adr-012-sem-concorrencia-otimista--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-012 Sem concorrência otimista.md",
+    "heading": "Alternativas Consideradas",
+    "order": 5,
+    "charCount": 110,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-012-sem-concorrencia-otimista--5.md"
+  },
+  {
+    "chunkId": "10-adr-adr-012-sem-concorrencia-otimista--6",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-012 Sem concorrência otimista.md",
+    "heading": "Consequências",
+    "order": 6,
+    "charCount": 67,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-012-sem-concorrencia-otimista--6.md"
+  },
+  {
+    "chunkId": "10-adr-adr-012-sem-concorrencia-otimista--7",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-012 Sem concorrência otimista.md",
+    "heading": "Relacionado",
+    "order": 7,
+    "charCount": 49,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-012-sem-concorrencia-otimista--7.md"
+  },
+  {
+    "chunkId": "10-adr-adr-013-estrategia-de-testes-com-testcontainers--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-013 Estratégia de testes com Testcontainers.md",
+    "heading": "ADR-013: Testes com xUnit, NSubstitute, Shouldly e Testcontainers SQL Server",
+    "order": 1,
+    "charCount": 344,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-013-estrategia-de-testes-com-testcontainers--1.md"
+  },
+  {
+    "chunkId": "10-adr-adr-013-estrategia-de-testes-com-testcontainers--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-013 Estratégia de testes com Testcontainers.md",
+    "heading": "Status",
+    "order": 2,
+    "charCount": 17,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-013-estrategia-de-testes-com-testcontainers--2.md"
+  },
+  {
+    "chunkId": "10-adr-adr-013-estrategia-de-testes-com-testcontainers--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-013 Estratégia de testes com Testcontainers.md",
+    "heading": "Contexto",
+    "order": 3,
+    "charCount": 103,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-013-estrategia-de-testes-com-testcontainers--3.md"
+  },
+  {
+    "chunkId": "10-adr-adr-013-estrategia-de-testes-com-testcontainers--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-013 Estratégia de testes com Testcontainers.md",
+    "heading": "Decisão",
+    "order": 4,
+    "charCount": 373,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-013-estrategia-de-testes-com-testcontainers--4.md"
+  },
+  {
+    "chunkId": "10-adr-adr-013-estrategia-de-testes-com-testcontainers--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-013 Estratégia de testes com Testcontainers.md",
+    "heading": "Alternativas Consideradas",
+    "order": 5,
+    "charCount": 215,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-013-estrategia-de-testes-com-testcontainers--5.md"
+  },
+  {
+    "chunkId": "10-adr-adr-013-estrategia-de-testes-com-testcontainers--6",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-013 Estratégia de testes com Testcontainers.md",
+    "heading": "Consequências",
+    "order": 6,
+    "charCount": 63,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-013-estrategia-de-testes-com-testcontainers--6.md"
+  },
+  {
+    "chunkId": "10-adr-adr-013-estrategia-de-testes-com-testcontainers--7",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-013 Estratégia de testes com Testcontainers.md",
+    "heading": "Relacionado",
+    "order": 7,
+    "charCount": 145,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-013-estrategia-de-testes-com-testcontainers--7.md"
+  },
+  {
+    "chunkId": "10-adr-adr-014-validacao-de-preco--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-014 Validação de preço.md",
+    "heading": "ADR-014: Validação de preço",
+    "order": 1,
+    "charCount": 237,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-014-validacao-de-preco--1.md"
+  },
+  {
+    "chunkId": "10-adr-adr-014-validacao-de-preco--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-014 Validação de preço.md",
+    "heading": "Status",
+    "order": 2,
+    "charCount": 17,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-014-validacao-de-preco--2.md"
+  },
+  {
+    "chunkId": "10-adr-adr-014-validacao-de-preco--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-014 Validação de preço.md",
+    "heading": "Contexto",
+    "order": 3,
+    "charCount": 60,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-014-validacao-de-preco--3.md"
+  },
+  {
+    "chunkId": "10-adr-adr-014-validacao-de-preco--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-014 Validação de preço.md",
+    "heading": "Decisão",
+    "order": 4,
+    "charCount": 289,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-014-validacao-de-preco--4.md"
+  },
+  {
+    "chunkId": "10-adr-adr-014-validacao-de-preco--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-014 Validação de preço.md",
+    "heading": "Alternativas Consideradas",
+    "order": 5,
+    "charCount": 116,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-014-validacao-de-preco--5.md"
+  },
+  {
+    "chunkId": "10-adr-adr-014-validacao-de-preco--6",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-014 Validação de preço.md",
+    "heading": "Consequências",
+    "order": 6,
+    "charCount": 115,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-014-validacao-de-preco--6.md"
+  },
+  {
+    "chunkId": "10-adr-adr-014-validacao-de-preco--7",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-014 Validação de preço.md",
+    "heading": "Relacionado",
+    "order": 7,
+    "charCount": 49,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-014-validacao-de-preco--7.md"
+  },
+  {
+    "chunkId": "10-adr-adr-015-exclusao-logica-uuid-v7-e-datas-pelo-servidor--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor.md",
+    "heading": "ADR-015: Exclusão lógica com global query filter, UUID v7 e datas pelo servidor",
+    "order": 1,
+    "charCount": 269,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-015-exclusao-logica-uuid-v7-e-datas-pelo-servidor--1.md"
+  },
+  {
+    "chunkId": "10-adr-adr-015-exclusao-logica-uuid-v7-e-datas-pelo-servidor--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor.md",
+    "heading": "Status",
+    "order": 2,
+    "charCount": 17,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-015-exclusao-logica-uuid-v7-e-datas-pelo-servidor--2.md"
+  },
+  {
+    "chunkId": "10-adr-adr-015-exclusao-logica-uuid-v7-e-datas-pelo-servidor--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor.md",
+    "heading": "Contexto",
+    "order": 3,
+    "charCount": 126,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-015-exclusao-logica-uuid-v7-e-datas-pelo-servidor--3.md"
+  },
+  {
+    "chunkId": "10-adr-adr-015-exclusao-logica-uuid-v7-e-datas-pelo-servidor--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor.md",
+    "heading": "Decisão",
+    "order": 4,
+    "charCount": 393,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-015-exclusao-logica-uuid-v7-e-datas-pelo-servidor--4.md"
+  },
+  {
+    "chunkId": "10-adr-adr-015-exclusao-logica-uuid-v7-e-datas-pelo-servidor--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor.md",
+    "heading": "Alternativas Consideradas",
+    "order": 5,
+    "charCount": 235,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-015-exclusao-logica-uuid-v7-e-datas-pelo-servidor--5.md"
+  },
+  {
+    "chunkId": "10-adr-adr-015-exclusao-logica-uuid-v7-e-datas-pelo-servidor--6",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor.md",
+    "heading": "Consequências",
+    "order": 6,
+    "charCount": 121,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-015-exclusao-logica-uuid-v7-e-datas-pelo-servidor--6.md"
+  },
+  {
+    "chunkId": "10-adr-adr-015-exclusao-logica-uuid-v7-e-datas-pelo-servidor--7",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/10 - ADR/ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor.md",
+    "heading": "Relacionado",
+    "order": 7,
+    "charCount": 42,
+    "file": "knowledge/embeddings/chunks/10-adr-adr-015-exclusao-logica-uuid-v7-e-datas-pelo-servidor--7.md"
+  },
+  {
+    "chunkId": "14-planejamento-auditoria-de-produtos-removidos--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Auditoria de produtos removidos.md",
+    "heading": "Auditoria de produtos removidos",
+    "order": 1,
+    "charCount": 252,
+    "file": "knowledge/embeddings/chunks/14-planejamento-auditoria-de-produtos-removidos--1.md"
+  },
+  {
+    "chunkId": "14-planejamento-auditoria-de-produtos-removidos--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Auditoria de produtos removidos.md",
+    "heading": "Escopo adiado",
+    "order": 2,
+    "charCount": 369,
+    "file": "knowledge/embeddings/chunks/14-planejamento-auditoria-de-produtos-removidos--2.md"
+  },
+  {
+    "chunkId": "14-planejamento-concorrencia-otimista--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Concorrência otimista.md",
+    "heading": "Concorrência otimista",
+    "order": 1,
+    "charCount": 207,
+    "file": "knowledge/embeddings/chunks/14-planejamento-concorrencia-otimista--1.md"
+  },
+  {
+    "chunkId": "14-planejamento-concorrencia-otimista--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Concorrência otimista.md",
+    "heading": "Escopo adiado",
+    "order": 2,
+    "charCount": 266,
+    "file": "knowledge/embeddings/chunks/14-planejamento-concorrencia-otimista--2.md"
+  },
+  {
+    "chunkId": "14-planejamento-concorrencia-otimista--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Concorrência otimista.md",
+    "heading": "Relacionado",
+    "order": 3,
+    "charCount": 49,
+    "file": "knowledge/embeddings/chunks/14-planejamento-concorrencia-otimista--3.md"
+  },
+  {
+    "chunkId": "14-planejamento-confirmar-decisoes-que-alteram-comportamento--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Confirmar decisões que alteram comportamento.md",
+    "heading": "Confirmar decisões que alteram comportamento",
+    "order": 1,
+    "charCount": 368,
+    "file": "knowledge/embeddings/chunks/14-planejamento-confirmar-decisoes-que-alteram-comportamento--1.md"
+  },
+  {
+    "chunkId": "14-planejamento-confirmar-decisoes-que-alteram-comportamento--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Confirmar decisões que alteram comportamento.md",
+    "heading": "Pendência",
+    "order": 2,
+    "charCount": 678,
+    "file": "knowledge/embeddings/chunks/14-planejamento-confirmar-decisoes-que-alteram-comportamento--2.md"
+  },
+  {
+    "chunkId": "14-planejamento-health-checks-e-observabilidade--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Health checks e observabilidade.md",
+    "heading": "Health checks e observabilidade",
+    "order": 1,
+    "charCount": 224,
+    "file": "knowledge/embeddings/chunks/14-planejamento-health-checks-e-observabilidade--1.md"
+  },
+  {
+    "chunkId": "14-planejamento-health-checks-e-observabilidade--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Health checks e observabilidade.md",
+    "heading": "Escopo adiado",
+    "order": 2,
+    "charCount": 286,
+    "file": "knowledge/embeddings/chunks/14-planejamento-health-checks-e-observabilidade--2.md"
+  },
+  {
+    "chunkId": "14-planejamento-implementacao-do-catalogo-de-produtos--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Implementação do Catálogo de Produtos.md",
+    "heading": "Implementação do Catálogo de Produtos",
+    "order": 1,
+    "charCount": 260,
+    "file": "knowledge/embeddings/chunks/14-planejamento-implementacao-do-catalogo-de-produtos--1.md"
+  },
+  {
+    "chunkId": "14-planejamento-implementacao-do-catalogo-de-produtos--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Implementação do Catálogo de Produtos.md",
+    "heading": "Situação",
+    "order": 2,
+    "charCount": 237,
+    "file": "knowledge/embeddings/chunks/14-planejamento-implementacao-do-catalogo-de-produtos--2.md"
+  },
+  {
+    "chunkId": "14-planejamento-implementacao-do-catalogo-de-produtos--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Implementação do Catálogo de Produtos.md",
+    "heading": "Componentes previstos",
+    "order": 3,
+    "charCount": 905,
+    "file": "knowledge/embeddings/chunks/14-planejamento-implementacao-do-catalogo-de-produtos--3.md"
+  },
+  {
+    "chunkId": "14-planejamento-implementacao-do-catalogo-de-produtos--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Implementação do Catálogo de Produtos.md",
+    "heading": "Relacionado",
+    "order": 4,
+    "charCount": 95,
+    "file": "knowledge/embeddings/chunks/14-planejamento-implementacao-do-catalogo-de-produtos--4.md"
+  },
+  {
+    "chunkId": "14-planejamento-listagem-de-produtos-ativos-e-inativos--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Listagem de produtos ativos e inativos.md",
+    "heading": "Listagem de produtos ativos e inativos",
+    "order": 1,
+    "charCount": 223,
+    "file": "knowledge/embeddings/chunks/14-planejamento-listagem-de-produtos-ativos-e-inativos--1.md"
+  },
+  {
+    "chunkId": "14-planejamento-listagem-de-produtos-ativos-e-inativos--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Listagem de produtos ativos e inativos.md",
+    "heading": "Escopo adiado",
+    "order": 2,
+    "charCount": 344,
+    "file": "knowledge/embeddings/chunks/14-planejamento-listagem-de-produtos-ativos-e-inativos--2.md"
+  },
+  {
+    "chunkId": "14-planejamento-provedor-de-identidade--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Provedor de identidade.md",
+    "heading": "Provedor de identidade",
+    "order": 1,
+    "charCount": 237,
+    "file": "knowledge/embeddings/chunks/14-planejamento-provedor-de-identidade--1.md"
+  },
+  {
+    "chunkId": "14-planejamento-provedor-de-identidade--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Provedor de identidade.md",
+    "heading": "Em aberto",
+    "order": 2,
+    "charCount": 396,
+    "file": "knowledge/embeddings/chunks/14-planejamento-provedor-de-identidade--2.md"
+  },
+  {
+    "chunkId": "14-planejamento-provedor-de-identidade--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Provedor de identidade.md",
+    "heading": "Relacionado",
+    "order": 3,
+    "charCount": 48,
+    "file": "knowledge/embeddings/chunks/14-planejamento-provedor-de-identidade--3.md"
+  },
+  {
+    "chunkId": "14-planejamento-rate-limit-atras-de-proxy-e-valor-definitivo--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Rate limit atrás de proxy e valor definitivo.md",
+    "heading": "Rate limit atrás de proxy e valor definitivo",
+    "order": 1,
+    "charCount": 265,
+    "file": "knowledge/embeddings/chunks/14-planejamento-rate-limit-atras-de-proxy-e-valor-definitivo--1.md"
+  },
+  {
+    "chunkId": "14-planejamento-rate-limit-atras-de-proxy-e-valor-definitivo--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Rate limit atrás de proxy e valor definitivo.md",
+    "heading": "Em aberto",
+    "order": 2,
+    "charCount": 404,
+    "file": "knowledge/embeddings/chunks/14-planejamento-rate-limit-atras-de-proxy-e-valor-definitivo--2.md"
+  },
+  {
+    "chunkId": "14-planejamento-rate-limit-atras-de-proxy-e-valor-definitivo--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Rate limit atrás de proxy e valor definitivo.md",
+    "heading": "Relacionado",
+    "order": 3,
+    "charCount": 50,
+    "file": "knowledge/embeddings/chunks/14-planejamento-rate-limit-atras-de-proxy-e-valor-definitivo--3.md"
+  },
+  {
+    "chunkId": "index--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/Index.md",
+    "heading": "Index do Knowledge Vault",
+    "order": 1,
+    "charCount": 232,
+    "file": "knowledge/embeddings/chunks/index--1.md"
+  },
+  {
+    "chunkId": "index--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/Index.md",
+    "heading": "06 - Arquitetura",
+    "order": 2,
+    "charCount": 119,
+    "file": "knowledge/embeddings/chunks/index--2.md"
+  },
+  {
+    "chunkId": "index--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/Index.md",
+    "heading": "07 - Integrações",
+    "order": 3,
+    "charCount": 70,
+    "file": "knowledge/embeddings/chunks/index--3.md"
+  },
+  {
+    "chunkId": "index--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/Index.md",
+    "heading": "10 - ADR",
+    "order": 4,
+    "charCount": 717,
+    "file": "knowledge/embeddings/chunks/index--4.md"
+  },
+  {
+    "chunkId": "index--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/Index.md",
+    "heading": "14 - Planejamento",
+    "order": 5,
+    "charCount": 345,
+    "file": "knowledge/embeddings/chunks/index--5.md"
+  }
+]
