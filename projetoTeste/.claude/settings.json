@@ -1,0 +1,49 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PROJECT_DIR}/.claude/hooks/generate-token-report.cjs\"",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PROJECT_DIR}/.claude/hooks/knowledge-sync.cjs\"",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Read",
+      "Grep",
+      "Glob",
+      "Edit(output/**)",
+      "Edit(docs/**)",
+      "Edit(knowledge/**)",
+      "Edit(src/**)",
+      "Edit(tests/**)",
+      "Edit(e2e/**)",
+      "Bash(node .claude/scripts/knowledge-engine-build.cjs)",
+      "Bash(node .claude/scripts/limpar-output.cjs)",
+      "Bash(git log*)",
+      "Bash(dotnet build)",
+      "Bash(dotnet build *)",
+      "Bash(dotnet test)",
+      "Bash(dotnet test *)",
+      "Bash(dotnet sln *)",
+      "Bash(dotnet new xunit *)"
+    ]
+  }
+}

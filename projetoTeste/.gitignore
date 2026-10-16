@@ -1,0 +1,51 @@
+# .NET
+bin/
+obj/
+*.dll
+*.exe
+.vs/
+.vscode/
+*.csproj.user
+*.sln.user
+
+# Frontend
+node_modules/
+dist/
+
+# Output do Pipeline — output/ VAI versionada, mas só com o que fica entre as
+# rodadas: o token-report.md. Os relatórios intermediários de cada agente, os
+# backups do /atualizar-versao e o marcador de rodada concluída são temporários.
+output/*
+!output/token-report.md
+
+# Knowledge Engine — knowledge/ é a MEMÓRIA do projeto e VAI versionada (vault,
+# grafo, cache, index.json, templates): é dela que sai, na próxima sessão, o que
+# já foi implementado e o que ainda está planejado em "14 - Planejamento/".
+# NÃO acrescente "knowledge/" aqui. A única exceção são os chunks de embeddings,
+# derivados e regenerados por .claude/scripts/knowledge-engine-build.cjs.
+knowledge/embeddings/chunks/
+knowledge/embeddings/fontes/
+
+# Claude Code — .claude/ (inclusive settings.local.json), CLAUDE.md e .mcp.json
+# VÃO versionados: toda configuração nova do Claude sobe no commit. NÃO
+# acrescente nada disso aqui. As negações vencem um gitignore global.
+!.claude/
+!.claude/**
+!CLAUDE.md
+!.mcp.json
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Ambiente
+.env
+.env.local
