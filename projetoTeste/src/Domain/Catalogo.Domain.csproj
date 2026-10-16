@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Catalogo.Domain</RootNamespace>
+    <AssemblyName>Catalogo.Domain</AssemblyName>
+  </PropertyGroup>
+</Project>
