@@ -33,7 +33,7 @@ Produto removido logicamente responde 404 em GET, PUT, PATCH e DELETE (BR-005).
 
 - `categoriaId` obrigatório e diferente de `Guid.Empty`.
 - `nome` 3–150, sem espaços nas pontas ([[ADR-007 Espaços nas pontas rejeitados com 400]]).
-- `sku` 3–40, regex `^[A-Za-z0-9-]+$` (só no POST).
+- `sku` 3–40, só letras, números e hífen (só no POST), regex `^[A-Za-z0-9-]+\z` em `LimitesCampos.SkuRegex`, usada pelo validator e pelo `Sku.Criar`. O `\z` (e não `$`) impede que um `\n` no final passe ([[SKU aceita quebra de linha no final]], resolvido em 2026-10-16).
 - `descricao` ≤ 1000.
 - `preco` obrigatório, `> 0`, `≤ 9999999999999999.99`, no máximo 2 casas ([[ADR-014 Validação de preço]]).
 

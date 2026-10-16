@@ -34,7 +34,6 @@ internal static class RateLimitingExtensions
                             PermitLimit = permitidas,
                             Window = janela,
                             QueueLimit = 0,
-                            QueueProcessingOrder = QueueProcessingOrder.OldestFirst,
                             AutoReplenishment = true
                         }));
 

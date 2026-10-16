@@ -21,6 +21,13 @@ O backend está implementado e `dotnet build` passa sem erros nem avisos. Faltam
 - [ ] Testes unitários e de integração com Testcontainers ([[ADR-013 Estratégia de testes com Testcontainers]]). Os projetos `src/Tests/Catalogo.UnitTests` e `src/Tests/Catalogo.IntegrationTests` ainda não existem: o 05-test-engineer cria e adiciona ao `Catalogo.slnx` (pasta `/src/Tests/` já existe na solução). As versões dos pacotes de teste ainda não estão no `Directory.Packages.props`. `Application` e `Infrastructure` já declaram `InternalsVisibleTo` para os dois projetos.
 
 ## Pendências
+- **Correções da revisão (04-reviewer-sdd, 2026-10-16): feitas pelo 03-dotnet-specialist em 2026-10-16. Falta uma nova passada do reviewer.**
+  - [x] 🔴 Regex do SKU trocada para `^[A-Za-z0-9-]+\z` ([[SKU aceita quebra de linha no final]], resolvido).
+  - [x] 🟡 Snapshot `CatalogoDbContextModelSnapshot.cs` movido para `src/Infrastructure/Persistencia/Migrations/`. A pasta `src/Infrastructure/Catalogo/` foi apagada.
+  - [x] 🟡 `ExcecaoGlobalHandler` trata `OperationCanceledException` com `RequestAborted` cancelado: log `Information`, status 499 sem corpo ([[Tratamento de Erros e ProblemDetails]]).
+  - [x] 🟢 `ExisteSkuAsync` recebe `Sku`, e o caso de uso cria o VO uma vez só. Removido o `QueueProcessingOrder` sem efeito no rate limiter.
+  - [ ] 🟢 `RemoverCategoriaUseCase` ainda carrega a entidade rastreada só para checar se existe. Ficou assim porque a troca exige um método novo no repositório; o reviewer considerou aceitável.
+- **Teste de regressão do SKU:** o 05-test-engineer deve cobrir `"TEC-001\n"` → 400 no validator e `DomainException` no `Sku.Criar`.
 - **Validar contra SQL Server real.** Nesta sessão não havia Docker nem LocalDB, então nada que toca o banco foi executado: inserts, índices filtrados, collation CI, tradução de 2601/2627/547, `ExecuteDelete` da ADR-001 e materialização do `Sku`. O SQL gerado foi conferido com `ToQueryString` e o pipeline HTTP sem banco foi testado manualmente (401, 403, 400, 404, 429, 500). Os testes de integração do 05-test-engineer cobrem esse ponto, mas precisam de Docker.
 - A ferramenta global `dotnet-ef` da máquina está em 10.0.9, mais antiga que o runtime EF 10.0.13 (só gera aviso). Atualizar com `dotnet tool update -g dotnet-ef` antes de gerar novas migrations.
 

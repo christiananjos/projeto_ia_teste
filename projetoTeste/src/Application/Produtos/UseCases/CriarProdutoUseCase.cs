@@ -27,7 +27,8 @@ public sealed class CriarProdutoUseCase(
         if (categoria is null || !categoria.Ativa)
             return ProdutoErros.CategoriaInvalida;
 
-        if (await produtos.ExisteSkuAsync(request.Sku, ct))
+        var sku = Sku.Criar(request.Sku);
+        if (await produtos.ExisteSkuAsync(sku, ct))
             return ProdutoErros.SkuDuplicado;
 
         if (await produtos.ExisteNomeNaCategoriaAsync(categoriaId, request.Nome, null, ct))
@@ -36,7 +37,7 @@ public sealed class CriarProdutoUseCase(
         var produto = Produto.Criar(
             categoriaId,
             request.Nome,
-            Sku.Criar(request.Sku),
+            sku,
             request.Descricao,
             request.Preco!.Value,
             timeProvider.GetUtcNow().UtcDateTime);

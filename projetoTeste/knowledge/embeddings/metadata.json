@@ -50,7 +50,7 @@
     "sourceDoc": "knowledge/vault/04 - APIs/API de Produtos.md",
     "heading": "Validação (400, antes de qualquer acesso ao banco)",
     "order": 3,
-    "charCount": 385,
+    "charCount": 604,
     "file": "knowledge/embeddings/chunks/04-apis-api-de-produtos--3.md"
   },
   {
@@ -104,7 +104,7 @@
     "sourceDoc": "knowledge/vault/05 - Banco de Dados/Modelo de Dados do Catálogo.md",
     "heading": "Decisões de implementação",
     "order": 4,
-    "charCount": 1250,
+    "charCount": 1630,
     "file": "knowledge/embeddings/chunks/05-banco-de-dados-modelo-de-dados-do-catalogo--4.md"
   },
   {
@@ -185,7 +185,7 @@
     "sourceDoc": "knowledge/vault/06 - Arquitetura/Persistência EF Core.md",
     "heading": "Comportamentos",
     "order": 3,
-    "charCount": 1578,
+    "charCount": 1634,
     "file": "knowledge/embeddings/chunks/06-arquitetura-persistencia-ef-core--3.md"
   },
   {
@@ -212,7 +212,7 @@
     "sourceDoc": "knowledge/vault/06 - Arquitetura/Tratamento de Erros e ProblemDetails.md",
     "heading": null,
     "order": 3,
-    "charCount": 714,
+    "charCount": 600,
     "file": "knowledge/embeddings/chunks/06-arquitetura-tratamento-de-erros-e-problemdetails--3.md"
   },
   {
@@ -221,8 +221,17 @@
     "sourceDoc": "knowledge/vault/06 - Arquitetura/Tratamento de Erros e ProblemDetails.md",
     "heading": null,
     "order": 4,
-    "charCount": 264,
+    "charCount": 916,
     "file": "knowledge/embeddings/chunks/06-arquitetura-tratamento-de-erros-e-problemdetails--4.md"
+  },
+  {
+    "chunkId": "06-arquitetura-tratamento-de-erros-e-problemdetails--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/06 - Arquitetura/Tratamento de Erros e ProblemDetails.md",
+    "heading": null,
+    "order": 5,
+    "charCount": 264,
+    "file": "knowledge/embeddings/chunks/06-arquitetura-tratamento-de-erros-e-problemdetails--5.md"
   },
   {
     "chunkId": "07-integracoes-provedor-de-identidade-jwt--1",
@@ -1206,6 +1215,60 @@
     "file": "knowledge/embeddings/chunks/10-adr-adr-015-exclusao-logica-uuid-v7-e-datas-pelo-servidor--7.md"
   },
   {
+    "chunkId": "11-bugs-conhecidos-sku-aceita-quebra-de-linha-no-final--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/11 - Bugs Conhecidos/SKU aceita quebra de linha no final.md",
+    "heading": "SKU aceita quebra de linha no final",
+    "order": 1,
+    "charCount": 428,
+    "file": "knowledge/embeddings/chunks/11-bugs-conhecidos-sku-aceita-quebra-de-linha-no-final--1.md"
+  },
+  {
+    "chunkId": "11-bugs-conhecidos-sku-aceita-quebra-de-linha-no-final--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/11 - Bugs Conhecidos/SKU aceita quebra de linha no final.md",
+    "heading": "Status: resolvido",
+    "order": 2,
+    "charCount": 473,
+    "file": "knowledge/embeddings/chunks/11-bugs-conhecidos-sku-aceita-quebra-de-linha-no-final--2.md"
+  },
+  {
+    "chunkId": "11-bugs-conhecidos-sku-aceita-quebra-de-linha-no-final--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/11 - Bugs Conhecidos/SKU aceita quebra de linha no final.md",
+    "heading": "Sintoma (antes da correção)",
+    "order": 3,
+    "charCount": 273,
+    "file": "knowledge/embeddings/chunks/11-bugs-conhecidos-sku-aceita-quebra-de-linha-no-final--3.md"
+  },
+  {
+    "chunkId": "11-bugs-conhecidos-sku-aceita-quebra-de-linha-no-final--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/11 - Bugs Conhecidos/SKU aceita quebra de linha no final.md",
+    "heading": "Causa",
+    "order": 4,
+    "charCount": 346,
+    "file": "knowledge/embeddings/chunks/11-bugs-conhecidos-sku-aceita-quebra-de-linha-no-final--4.md"
+  },
+  {
+    "chunkId": "11-bugs-conhecidos-sku-aceita-quebra-de-linha-no-final--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/11 - Bugs Conhecidos/SKU aceita quebra de linha no final.md",
+    "heading": "Observação",
+    "order": 5,
+    "charCount": 258,
+    "file": "knowledge/embeddings/chunks/11-bugs-conhecidos-sku-aceita-quebra-de-linha-no-final--5.md"
+  },
+  {
+    "chunkId": "11-bugs-conhecidos-sku-aceita-quebra-de-linha-no-final--6",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/11 - Bugs Conhecidos/SKU aceita quebra de linha no final.md",
+    "heading": "Relacionado",
+    "order": 6,
+    "charCount": 170,
+    "file": "knowledge/embeddings/chunks/11-bugs-conhecidos-sku-aceita-quebra-de-linha-no-final--6.md"
+  },
+  {
     "chunkId": "14-planejamento-auditoria-de-produtos-removidos--1",
     "tipo": "vault",
     "sourceDoc": "knowledge/vault/14 - Planejamento/Auditoria de produtos removidos.md",
@@ -1319,7 +1382,7 @@
     "sourceDoc": "knowledge/vault/14 - Planejamento/Implementação do Catálogo de Produtos.md",
     "heading": "Pendências",
     "order": 4,
-    "charCount": 675,
+    "charCount": 1749,
     "file": "knowledge/embeddings/chunks/14-planejamento-implementacao-do-catalogo-de-produtos--4.md"
   },
   {
@@ -1461,9 +1524,18 @@
     "chunkId": "index--7",
     "tipo": "vault",
     "sourceDoc": "knowledge/vault/Index.md",
-    "heading": "14 - Planejamento",
+    "heading": "11 - Bugs Conhecidos",
     "order": 7,
-    "charCount": 345,
+    "charCount": 92,
     "file": "knowledge/embeddings/chunks/index--7.md"
+  },
+  {
+    "chunkId": "index--8",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/Index.md",
+    "heading": "14 - Planejamento",
+    "order": 8,
+    "charCount": 345,
+    "file": "knowledge/embeddings/chunks/index--8.md"
   }
 ]

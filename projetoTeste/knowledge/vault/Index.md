@@ -35,6 +35,9 @@
 - [[ADR-014 Validação de preço]]
 - [[ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor]]
 
+## 11 - Bugs Conhecidos
+- [[SKU aceita quebra de linha no final]] (resolvido em 2026-10-16)
+
 ## 14 - Planejamento
 - [[Implementação do Catálogo de Produtos]]
 - [[Confirmar decisões que alteram comportamento]]

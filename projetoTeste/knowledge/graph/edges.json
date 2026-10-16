@@ -66,6 +66,11 @@
   },
   {
     "source": "04 - APIs/API de Produtos",
+    "target": "11 - Bugs Conhecidos/SKU aceita quebra de linha no final",
+    "resolved": true
+  },
+  {
+    "source": "04 - APIs/API de Produtos",
     "target": "10 - ADR/ADR-014 Validação de preço",
     "resolved": true
   },
@@ -510,6 +515,41 @@
     "resolved": true
   },
   {
+    "source": "11 - Bugs Conhecidos/SKU aceita quebra de linha no final",
+    "target": "04 - APIs/API de Produtos",
+    "resolved": true
+  },
+  {
+    "source": "11 - Bugs Conhecidos/SKU aceita quebra de linha no final",
+    "target": "10 - ADR/ADR-013 Estratégia de testes com Testcontainers",
+    "resolved": true
+  },
+  {
+    "source": "11 - Bugs Conhecidos/SKU aceita quebra de linha no final",
+    "target": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "resolved": true
+  },
+  {
+    "source": "11 - Bugs Conhecidos/SKU aceita quebra de linha no final",
+    "target": "04 - APIs/API de Produtos",
+    "resolved": true
+  },
+  {
+    "source": "11 - Bugs Conhecidos/SKU aceita quebra de linha no final",
+    "target": "05 - Banco de Dados/Modelo de Dados do Catálogo",
+    "resolved": true
+  },
+  {
+    "source": "11 - Bugs Conhecidos/SKU aceita quebra de linha no final",
+    "target": "10 - ADR/ADR-008 Unicidade case-insensitive via collation",
+    "resolved": true
+  },
+  {
+    "source": "11 - Bugs Conhecidos/SKU aceita quebra de linha no final",
+    "target": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "resolved": true
+  },
+  {
     "source": "14 - Planejamento/Auditoria de produtos removidos",
     "target": "10 - ADR/ADR-001 Remoção de categoria com produtos removidos",
     "resolved": true
@@ -587,6 +627,16 @@
   {
     "source": "14 - Planejamento/Implementação do Catálogo de Produtos",
     "target": "10 - ADR/ADR-013 Estratégia de testes com Testcontainers",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "target": "11 - Bugs Conhecidos/SKU aceita quebra de linha no final",
+    "resolved": true
+  },
+  {
+    "source": "14 - Planejamento/Implementação do Catálogo de Produtos",
+    "target": "06 - Arquitetura/Tratamento de Erros e ProblemDetails",
     "resolved": true
   },
   {
@@ -732,6 +782,11 @@
   {
     "source": "Index",
     "target": "10 - ADR/ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor",
+    "resolved": true
+  },
+  {
+    "source": "Index",
+    "target": "11 - Bugs Conhecidos/SKU aceita quebra de linha no final",
     "resolved": true
   },
   {

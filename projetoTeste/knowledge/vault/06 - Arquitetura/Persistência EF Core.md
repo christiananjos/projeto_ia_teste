@@ -27,6 +27,6 @@ tags: [ef-core, sql-server, persistencia]
 - Erros SQL 2601 e 2627 viram `ConflitoPersistenciaException(Unicidade)`; 547 vira `ConflitoPersistenciaException(Referencia)`. A restrição é identificada procurando os nomes conhecidos na mensagem (funciona mesmo com mensagem localizada pelo servidor), com fallback para o nome entre aspas.
 - A remoção de categoria roda dentro de `CreateExecutionStrategy().ExecuteAsync` + transação, com `ExecuteDelete`: primeiro os produtos já removidos, depois a categoria. FK 547 → rollback e `ConflitoPersistenciaException(Referencia)` ([[ADR-001 Remoção de categoria com produtos removidos]]).
 - O filtro `nome` da listagem usa `string.Contains`, que o EF 10 traduz para `LIKE @p ESCAPE N'\'` com `%`, `_` e `[` escapados (conferido com `ToQueryString`).
-- `ExisteSkuAsync` compara pelo value object (`p.Sku == Sku.Criar(sku)`); o conversor transforma o parâmetro em `nvarchar(40)` e a collation CI faz `tec-001` colidir com `TEC-001`.
+- `ExisteSkuAsync(Sku sku, ...)` recebe o value object, criado uma vez só no `CriarProdutoUseCase`, e compara com `p.Sku == sku`; o conversor transforma o parâmetro em `nvarchar(40)` e a collation CI faz `tec-001` colidir com `TEC-001`.
 - A connection string `ConnectionStrings:Catalogo` é lida na criação do contexto (permite que os testes a substituam); se faltar, a primeira requisição que usa o banco falha com mensagem explicando user-secrets / `ConnectionStrings__Catalogo`. `UseSqlServer(..., EnableRetryOnFailure())`.
 - A API não aplica migrations no startup.

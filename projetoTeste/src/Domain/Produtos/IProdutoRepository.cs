@@ -6,7 +6,7 @@ public interface IProdutoRepository
     Task<Produto?> ObterPorIdAsync(Guid id, CancellationToken ct);
 
     /// <summary>Verifica SKU já usado entre produtos não removidos, sem diferenciar maiúsculas.</summary>
-    Task<bool> ExisteSkuAsync(string sku, CancellationToken ct);
+    Task<bool> ExisteSkuAsync(Sku sku, CancellationToken ct);
 
     /// <summary>Verifica nome já usado na categoria entre produtos não removidos, sem diferenciar maiúsculas.</summary>
     Task<bool> ExisteNomeNaCategoriaAsync(Guid categoriaId, string nome, Guid? ignorarId, CancellationToken ct);

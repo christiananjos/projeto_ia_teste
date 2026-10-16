@@ -138,6 +138,12 @@
     "domain": "10 - ADR"
   },
   {
+    "id": "11 - Bugs Conhecidos/SKU aceita quebra de linha no final",
+    "title": "SKU aceita quebra de linha no final",
+    "path": "11 - Bugs Conhecidos/SKU aceita quebra de linha no final.md",
+    "domain": "11 - Bugs Conhecidos"
+  },
+  {
     "id": "14 - Planejamento/Auditoria de produtos removidos",
     "title": "Auditoria de produtos removidos",
     "path": "14 - Planejamento/Auditoria de produtos removidos.md",

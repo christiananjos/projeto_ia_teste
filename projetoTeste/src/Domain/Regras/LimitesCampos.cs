@@ -15,7 +15,11 @@ public static class LimitesCampos
 
     public const int SkuMin = 3;
     public const int SkuMax = 40;
-    public const string SkuRegex = "^[A-Za-z0-9-]+$";
+    /// <summary>
+    /// Só alfanuméricos ASCII e hífen (BR-003). Usa <c>\z</c> em vez de <c>$</c> porque, no .NET, <c>$</c> também
+    /// casa antes de um <c>\n</c> final e deixaria passar <c>"TEC-001\n"</c>.
+    /// </summary>
+    public const string SkuRegex = @"^[A-Za-z0-9-]+\z";
 
     /// <summary>Maior valor representável em decimal(18,2) (ADR-014).</summary>
     public const decimal PrecoMaximo = 9999999999999999.99m;

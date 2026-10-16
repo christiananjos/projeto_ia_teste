@@ -25,6 +25,9 @@ tags: [api, erros, problemdetails]
 
 Todo ProblemDetails traz `type` (`https://httpstatuses.io/{status}`), `title` em português, `status`, `detail`, `instance` (path), `code` e `traceId`. As respostas geradas pelo framework (401, 403, 404 de rota, 400 de binding) saem pelo `UseStatusCodePages` + `CustomizeProblemDetails`, que preenche título, detalhe e `code` padrão por status. Os códigos genéricos (`requisicao_invalida`, `nao_autenticado`, `acesso_negado`, `nao_encontrado`, `limite_requisicoes`, `erro_interno`) foram definidos na implementação, porque a especificação só pedia `code` em todo ProblemDetails sem nomear esses casos.
 
-Toda exceção não tratada é registrada em nível `Error` (método e path; nunca token, connection string ou corpo).
+Níveis de log no `ExcecaoGlobalHandler` (método e path; nunca token, connection string ou corpo):
+- `OperationCanceledException` com `HttpContext.RequestAborted` cancelado (cliente desconectou): log `Information`, status 499 (`StatusCodes.Status499ClientClosedRequest`, se a resposta ainda não começou), sem corpo. Não vira 500 nem log `Error`. Observação do 04-reviewer-sdd (2026-10-16): no ASP.NET Core 8+, o próprio `ExceptionHandlerMiddleware` já trata `OperationCanceledException`/`IOException` com `RequestAborted` cancelado (log `Debug` e 499) antes de chamar os `IExceptionHandler`. Por isso esse ramo do handler é uma defesa redundante e, na prática, pouco executado. A afirmação vem do código do framework e não foi verificada em execução nesta rodada. Um teste de integração pode confirmar.
+- `DomainException` e `BadHttpRequestException` (4xx): log `Warning`.
+- Qualquer outra exceção (500): log `Error`.
 
 Comportamento conferido em execução local em 2026-10-16 (401, 403, 400 de binding, 400 de validação, 404 de id malformado, 429 e 500 sem banco). Relacionado: [[Arquitetura da Solução]], [[ADR-011 Rate limiting por IP]], [[API de Categorias]], [[API de Produtos]].
