@@ -1,11 +1,119 @@
 [
   {
+    "chunkId": "04-apis-api-de-categorias--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/04 - APIs/API de Categorias.md",
+    "heading": "API de Categorias",
+    "order": 1,
+    "charCount": 1186,
+    "file": "knowledge/embeddings/chunks/04-apis-api-de-categorias--1.md"
+  },
+  {
+    "chunkId": "04-apis-api-de-categorias--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/04 - APIs/API de Categorias.md",
+    "heading": "Contratos",
+    "order": 2,
+    "charCount": 647,
+    "file": "knowledge/embeddings/chunks/04-apis-api-de-categorias--2.md"
+  },
+  {
+    "chunkId": "04-apis-api-de-categorias--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/04 - APIs/API de Categorias.md",
+    "heading": "Regras aplicadas (ordem de checagem)",
+    "order": 3,
+    "charCount": 905,
+    "file": "knowledge/embeddings/chunks/04-apis-api-de-categorias--3.md"
+  },
+  {
+    "chunkId": "04-apis-api-de-produtos--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/04 - APIs/API de Produtos.md",
+    "heading": "API de Produtos",
+    "order": 1,
+    "charCount": 1419,
+    "file": "knowledge/embeddings/chunks/04-apis-api-de-produtos--1.md"
+  },
+  {
+    "chunkId": "04-apis-api-de-produtos--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/04 - APIs/API de Produtos.md",
+    "heading": "Contratos",
+    "order": 2,
+    "charCount": 512,
+    "file": "knowledge/embeddings/chunks/04-apis-api-de-produtos--2.md"
+  },
+  {
+    "chunkId": "04-apis-api-de-produtos--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/04 - APIs/API de Produtos.md",
+    "heading": "Validação (400, antes de qualquer acesso ao banco)",
+    "order": 3,
+    "charCount": 385,
+    "file": "knowledge/embeddings/chunks/04-apis-api-de-produtos--3.md"
+  },
+  {
+    "chunkId": "04-apis-api-de-produtos--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/04 - APIs/API de Produtos.md",
+    "heading": "Ordem das checagens",
+    "order": 4,
+    "charCount": 482,
+    "file": "knowledge/embeddings/chunks/04-apis-api-de-produtos--4.md"
+  },
+  {
+    "chunkId": "04-apis-api-de-produtos--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/04 - APIs/API de Produtos.md",
+    "heading": "Paginação",
+    "order": 5,
+    "charCount": 930,
+    "file": "knowledge/embeddings/chunks/04-apis-api-de-produtos--5.md"
+  },
+  {
+    "chunkId": "05-banco-de-dados-modelo-de-dados-do-catalogo--1",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/05 - Banco de Dados/Modelo de Dados do Catálogo.md",
+    "heading": "Modelo de Dados do Catálogo",
+    "order": 1,
+    "charCount": 543,
+    "file": "knowledge/embeddings/chunks/05-banco-de-dados-modelo-de-dados-do-catalogo--1.md"
+  },
+  {
+    "chunkId": "05-banco-de-dados-modelo-de-dados-do-catalogo--2",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/05 - Banco de Dados/Modelo de Dados do Catálogo.md",
+    "heading": "Tabela `Categorias`",
+    "order": 2,
+    "charCount": 513,
+    "file": "knowledge/embeddings/chunks/05-banco-de-dados-modelo-de-dados-do-catalogo--2.md"
+  },
+  {
+    "chunkId": "05-banco-de-dados-modelo-de-dados-do-catalogo--3",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/05 - Banco de Dados/Modelo de Dados do Catálogo.md",
+    "heading": "Tabela `Produtos`",
+    "order": 3,
+    "charCount": 1220,
+    "file": "knowledge/embeddings/chunks/05-banco-de-dados-modelo-de-dados-do-catalogo--3.md"
+  },
+  {
+    "chunkId": "05-banco-de-dados-modelo-de-dados-do-catalogo--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/05 - Banco de Dados/Modelo de Dados do Catálogo.md",
+    "heading": "Decisões de implementação",
+    "order": 4,
+    "charCount": 1250,
+    "file": "knowledge/embeddings/chunks/05-banco-de-dados-modelo-de-dados-do-catalogo--4.md"
+  },
+  {
     "chunkId": "06-arquitetura-arquitetura-da-solucao--1",
     "tipo": "vault",
     "sourceDoc": "knowledge/vault/06 - Arquitetura/Arquitetura da Solução.md",
     "heading": "Arquitetura da Solução",
     "order": 1,
-    "charCount": 528,
+    "charCount": 729,
     "file": "knowledge/embeddings/chunks/06-arquitetura-arquitetura-da-solucao--1.md"
   },
   {
@@ -14,7 +122,7 @@
     "sourceDoc": "knowledge/vault/06 - Arquitetura/Arquitetura da Solução.md",
     "heading": "Projetos",
     "order": 2,
-    "charCount": 628,
+    "charCount": 1084,
     "file": "knowledge/embeddings/chunks/06-arquitetura-arquitetura-da-solucao--2.md"
   },
   {
@@ -59,35 +167,26 @@
     "sourceDoc": "knowledge/vault/06 - Arquitetura/Persistência EF Core.md",
     "heading": "Persistência EF Core",
     "order": 1,
-    "charCount": 296,
+    "charCount": 391,
     "file": "knowledge/embeddings/chunks/06-arquitetura-persistencia-ef-core--1.md"
   },
   {
     "chunkId": "06-arquitetura-persistencia-ef-core--2",
     "tipo": "vault",
     "sourceDoc": "knowledge/vault/06 - Arquitetura/Persistência EF Core.md",
-    "heading": "Tabelas",
+    "heading": "Componentes",
     "order": 2,
-    "charCount": 507,
+    "charCount": 852,
     "file": "knowledge/embeddings/chunks/06-arquitetura-persistencia-ef-core--2.md"
   },
   {
     "chunkId": "06-arquitetura-persistencia-ef-core--3",
     "tipo": "vault",
     "sourceDoc": "knowledge/vault/06 - Arquitetura/Persistência EF Core.md",
-    "heading": "Índices",
-    "order": 3,
-    "charCount": 313,
-    "file": "knowledge/embeddings/chunks/06-arquitetura-persistencia-ef-core--3.md"
-  },
-  {
-    "chunkId": "06-arquitetura-persistencia-ef-core--4",
-    "tipo": "vault",
-    "sourceDoc": "knowledge/vault/06 - Arquitetura/Persistência EF Core.md",
     "heading": "Comportamentos",
-    "order": 4,
-    "charCount": 690,
-    "file": "knowledge/embeddings/chunks/06-arquitetura-persistencia-ef-core--4.md"
+    "order": 3,
+    "charCount": 1578,
+    "file": "knowledge/embeddings/chunks/06-arquitetura-persistencia-ef-core--3.md"
   },
   {
     "chunkId": "06-arquitetura-tratamento-de-erros-e-problemdetails--1",
@@ -95,7 +194,7 @@
     "sourceDoc": "knowledge/vault/06 - Arquitetura/Tratamento de Erros e ProblemDetails.md",
     "heading": "Tratamento de Erros e ProblemDetails",
     "order": 1,
-    "charCount": 314,
+    "charCount": 415,
     "file": "knowledge/embeddings/chunks/06-arquitetura-tratamento-de-erros-e-problemdetails--1.md"
   },
   {
@@ -104,7 +203,7 @@
     "sourceDoc": "knowledge/vault/06 - Arquitetura/Tratamento de Erros e ProblemDetails.md",
     "heading": null,
     "order": 2,
-    "charCount": 744,
+    "charCount": 1038,
     "file": "knowledge/embeddings/chunks/06-arquitetura-tratamento-de-erros-e-problemdetails--2.md"
   },
   {
@@ -113,8 +212,17 @@
     "sourceDoc": "knowledge/vault/06 - Arquitetura/Tratamento de Erros e ProblemDetails.md",
     "heading": null,
     "order": 3,
-    "charCount": 170,
+    "charCount": 714,
     "file": "knowledge/embeddings/chunks/06-arquitetura-tratamento-de-erros-e-problemdetails--3.md"
+  },
+  {
+    "chunkId": "06-arquitetura-tratamento-de-erros-e-problemdetails--4",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/06 - Arquitetura/Tratamento de Erros e ProblemDetails.md",
+    "heading": null,
+    "order": 4,
+    "charCount": 264,
+    "file": "knowledge/embeddings/chunks/06-arquitetura-tratamento-de-erros-e-problemdetails--4.md"
   },
   {
     "chunkId": "07-integracoes-provedor-de-identidade-jwt--1",
@@ -122,7 +230,7 @@
     "sourceDoc": "knowledge/vault/07 - Integrações/Provedor de Identidade JWT.md",
     "heading": "Provedor de Identidade JWT",
     "order": 1,
-    "charCount": 401,
+    "charCount": 477,
     "file": "knowledge/embeddings/chunks/07-integracoes-provedor-de-identidade-jwt--1.md"
   },
   {
@@ -131,7 +239,7 @@
     "sourceDoc": "knowledge/vault/07 - Integrações/Provedor de Identidade JWT.md",
     "heading": null,
     "order": 2,
-    "charCount": 780,
+    "charCount": 1122,
     "file": "knowledge/embeddings/chunks/07-integracoes-provedor-de-identidade-jwt--2.md"
   },
   {
@@ -140,7 +248,7 @@
     "sourceDoc": "knowledge/vault/07 - Integrações/SQL Server.md",
     "heading": "SQL Server",
     "order": 1,
-    "charCount": 257,
+    "charCount": 386,
     "file": "knowledge/embeddings/chunks/07-integracoes-sql-server--1.md"
   },
   {
@@ -149,7 +257,7 @@
     "sourceDoc": "knowledge/vault/07 - Integrações/SQL Server.md",
     "heading": null,
     "order": 2,
-    "charCount": 625,
+    "charCount": 675,
     "file": "knowledge/embeddings/chunks/07-integracoes-sql-server--2.md"
   },
   {
@@ -689,7 +797,7 @@
     "sourceDoc": "knowledge/vault/10 - ADR/ADR-009 Paginação, filtros e ordenação.md",
     "heading": "Decisão",
     "order": 4,
-    "charCount": 651,
+    "charCount": 889,
     "file": "knowledge/embeddings/chunks/10-adr-adr-009-paginacao-filtros-e-ordenacao--4.md"
   },
   {
@@ -1184,7 +1292,7 @@
     "sourceDoc": "knowledge/vault/14 - Planejamento/Implementação do Catálogo de Produtos.md",
     "heading": "Implementação do Catálogo de Produtos",
     "order": 1,
-    "charCount": 260,
+    "charCount": 325,
     "file": "knowledge/embeddings/chunks/14-planejamento-implementacao-do-catalogo-de-produtos--1.md"
   },
   {
@@ -1193,26 +1301,35 @@
     "sourceDoc": "knowledge/vault/14 - Planejamento/Implementação do Catálogo de Produtos.md",
     "heading": "Situação",
     "order": 2,
-    "charCount": 237,
+    "charCount": 177,
     "file": "knowledge/embeddings/chunks/14-planejamento-implementacao-do-catalogo-de-produtos--2.md"
   },
   {
     "chunkId": "14-planejamento-implementacao-do-catalogo-de-produtos--3",
     "tipo": "vault",
     "sourceDoc": "knowledge/vault/14 - Planejamento/Implementação do Catálogo de Produtos.md",
-    "heading": "Componentes previstos",
+    "heading": "Componentes",
     "order": 3,
-    "charCount": 905,
+    "charCount": 1348,
     "file": "knowledge/embeddings/chunks/14-planejamento-implementacao-do-catalogo-de-produtos--3.md"
   },
   {
     "chunkId": "14-planejamento-implementacao-do-catalogo-de-produtos--4",
     "tipo": "vault",
     "sourceDoc": "knowledge/vault/14 - Planejamento/Implementação do Catálogo de Produtos.md",
-    "heading": "Relacionado",
+    "heading": "Pendências",
     "order": 4,
-    "charCount": 95,
+    "charCount": 675,
     "file": "knowledge/embeddings/chunks/14-planejamento-implementacao-do-catalogo-de-produtos--4.md"
+  },
+  {
+    "chunkId": "14-planejamento-implementacao-do-catalogo-de-produtos--5",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/14 - Planejamento/Implementação do Catálogo de Produtos.md",
+    "heading": "Relacionado",
+    "order": 5,
+    "charCount": 95,
+    "file": "knowledge/embeddings/chunks/14-planejamento-implementacao-do-catalogo-de-produtos--5.md"
   },
   {
     "chunkId": "14-planejamento-listagem-de-produtos-ativos-e-inativos--1",
@@ -1292,43 +1409,61 @@
     "sourceDoc": "knowledge/vault/Index.md",
     "heading": "Index do Knowledge Vault",
     "order": 1,
-    "charCount": 232,
+    "charCount": 298,
     "file": "knowledge/embeddings/chunks/index--1.md"
   },
   {
     "chunkId": "index--2",
     "tipo": "vault",
     "sourceDoc": "knowledge/vault/Index.md",
-    "heading": "06 - Arquitetura",
+    "heading": "04 - APIs",
     "order": 2,
-    "charCount": 119,
+    "charCount": 59,
     "file": "knowledge/embeddings/chunks/index--2.md"
   },
   {
     "chunkId": "index--3",
     "tipo": "vault",
     "sourceDoc": "knowledge/vault/Index.md",
-    "heading": "07 - Integrações",
+    "heading": "05 - Banco de Dados",
     "order": 3,
-    "charCount": 70,
+    "charCount": 57,
     "file": "knowledge/embeddings/chunks/index--3.md"
   },
   {
     "chunkId": "index--4",
     "tipo": "vault",
     "sourceDoc": "knowledge/vault/Index.md",
-    "heading": "10 - ADR",
+    "heading": "06 - Arquitetura",
     "order": 4,
-    "charCount": 717,
+    "charCount": 119,
     "file": "knowledge/embeddings/chunks/index--4.md"
   },
   {
     "chunkId": "index--5",
     "tipo": "vault",
     "sourceDoc": "knowledge/vault/Index.md",
-    "heading": "14 - Planejamento",
+    "heading": "07 - Integrações",
     "order": 5,
-    "charCount": 345,
+    "charCount": 70,
     "file": "knowledge/embeddings/chunks/index--5.md"
+  },
+  {
+    "chunkId": "index--6",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/Index.md",
+    "heading": "10 - ADR",
+    "order": 6,
+    "charCount": 717,
+    "file": "knowledge/embeddings/chunks/index--6.md"
+  },
+  {
+    "chunkId": "index--7",
+    "tipo": "vault",
+    "sourceDoc": "knowledge/vault/Index.md",
+    "heading": "14 - Planejamento",
+    "order": 7,
+    "charCount": 345,
+    "file": "knowledge/embeddings/chunks/index--7.md"
   }
 ]

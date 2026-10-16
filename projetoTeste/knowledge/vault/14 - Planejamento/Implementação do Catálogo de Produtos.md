@@ -1,24 +1,28 @@
 ---
 tipo: planejamento
-status: planejado
+status: em-andamento
 data: 2026-10-16
 tags: [proximo-passo, implementacao]
 ---
 
 # Implementação do Catálogo de Produtos
 
-> Fonte: docs/SPEC.md (REQ-001 a REQ-004, BR-001 a BR-007). Arquitetura desenhada pelo 02-architect-sdd em 2026-10-16.
+> Fonte: docs/SPEC.md (REQ-001 a REQ-004, BR-001 a BR-007). Arquitetura desenhada pelo 02-architect-sdd em 2026-10-16; backend implementado pelo 03-dotnet-specialist em 2026-10-16.
 
 ## Situação
-A arquitetura está desenhada, mas **nenhum código foi escrito ainda**: as pastas `src/` estão vazias. O próximo passo é o 03-dotnet-specialist. Ao implementar cada item, ele marca o item como concluído aqui ou remove a nota.
+O backend está implementado e `dotnet build` passa sem erros nem avisos. Faltam os testes (próximo passo: 05-test-engineer) e a validação contra um SQL Server real.
 
-## Componentes previstos
-- [ ] Solução e infraestrutura de build: `Catalogo.slnx`, `Directory.Build.props`, `Directory.Packages.props`, `global.json` ([[ADR-002 Estrutura da solução e dependências]])
-- [ ] Domain: `Categoria`, `Produto`, `Sku`, as interfaces de repositório, `IUnitOfWork` e as exceções
-- [ ] Application: 11 casos de uso, 7 validators, DTOs, `Resultado`/`Erro` e as interfaces de consulta ([[ADR-003 Casos de uso, Result pattern e CQRS leve]])
-- [ ] Infrastructure: `CatalogoDbContext`, as configurações com índices e collation, os repositórios, as consultas e a migration `Inicial` ([[Persistência EF Core]])
-- [ ] API: endpoints de categoria e produto, ProblemDetails, JWT, policies e rate limiting ([[Tratamento de Erros e ProblemDetails]], [[Provedor de Identidade JWT]])
-- [ ] Testes unitários e de integração com Testcontainers ([[ADR-013 Estratégia de testes com Testcontainers]])
+## Componentes
+- [x] Solução e infraestrutura de build: `Catalogo.slnx`, `Directory.Build.props`, `Directory.Packages.props`, `global.json`, `nuget.config` ([[ADR-002 Estrutura da solução e dependências]])
+- [x] Domain: `Categoria`, `Produto`, `Sku`, as interfaces de repositório, `IUnitOfWork` e as exceções
+- [x] Application: 11 casos de uso, 7 validators, DTOs, `Resultado`/`Erro` e as interfaces de consulta ([[ADR-003 Casos de uso, Result pattern e CQRS leve]])
+- [x] Infrastructure: `CatalogoDbContext`, configurações com índices e collation, repositórios, consultas e a migration `Inicial` ([[Persistência EF Core]], [[Modelo de Dados do Catálogo]])
+- [x] API: endpoints de categoria e produto, ProblemDetails, JWT, policies e rate limiting ([[API de Categorias]], [[API de Produtos]], [[Tratamento de Erros e ProblemDetails]], [[Provedor de Identidade JWT]])
+- [ ] Testes unitários e de integração com Testcontainers ([[ADR-013 Estratégia de testes com Testcontainers]]). Os projetos `src/Tests/Catalogo.UnitTests` e `src/Tests/Catalogo.IntegrationTests` ainda não existem: o 05-test-engineer cria e adiciona ao `Catalogo.slnx` (pasta `/src/Tests/` já existe na solução). As versões dos pacotes de teste ainda não estão no `Directory.Packages.props`. `Application` e `Infrastructure` já declaram `InternalsVisibleTo` para os dois projetos.
+
+## Pendências
+- **Validar contra SQL Server real.** Nesta sessão não havia Docker nem LocalDB, então nada que toca o banco foi executado: inserts, índices filtrados, collation CI, tradução de 2601/2627/547, `ExecuteDelete` da ADR-001 e materialização do `Sku`. O SQL gerado foi conferido com `ToQueryString` e o pipeline HTTP sem banco foi testado manualmente (401, 403, 400, 404, 429, 500). Os testes de integração do 05-test-engineer cobrem esse ponto, mas precisam de Docker.
+- A ferramenta global `dotnet-ef` da máquina está em 10.0.9, mais antiga que o runtime EF 10.0.13 (só gera aviso). Atualizar com `dotnet tool update -g dotnet-ef` antes de gerar novas migrations.
 
 ## Relacionado
 - [[Arquitetura da Solução]]

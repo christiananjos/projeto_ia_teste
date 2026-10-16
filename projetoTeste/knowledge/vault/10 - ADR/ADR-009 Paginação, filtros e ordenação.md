@@ -18,7 +18,7 @@ A spec não define o que fazer com parâmetros fora do limite, o critério de de
 ## Decisão
 - `page < 1`, `pageSize < 1` e `pageSize > 100` devolvem **400**. O valor não é corrigido em silêncio.
 - A ordenação usa `ordenarPor` = `nome` | `preco` (padrão `nome`) e `direcao` = `asc` | `desc` (padrão `asc`), sem diferenciar maiúsculas. Qualquer outro valor devolve 400.
-- O desempate é sempre `id asc` (UUID v7).
+- O desempate é sempre `id asc` (UUID v7). Observação da implementação (2026-10-16): o SQL Server ordena `uniqueidentifier` começando pelos últimos 6 bytes, então essa ordem é estável e determinística, mas **não** acompanha a ordem de criação. Ver [[Modelo de Dados do Catálogo]].
 - `ativo` omitido equivale a `true`. Listar ativos e inativos juntos fica **fora do escopo**; ver [[Listagem de produtos ativos e inativos]].
 - `page` além da última página devolve 200 com `itens: []` e os totais reais.
 - `nome` vazio é ignorado.

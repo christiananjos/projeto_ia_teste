@@ -1,6 +1,6 @@
 ---
 tipo: arquitetura
-status: planejado
+status: implementado
 data: 2026-10-16
 tags: [arquitetura, clean-architecture, dotnet]
 ---
@@ -8,7 +8,7 @@ tags: [arquitetura, clean-architecture, dotnet]
 # Arquitetura da Solução
 
 > Fonte: docs/SPEC.md (RNF, Stack). Decisões do 02-architect-sdd em 2026-10-16 ([[ADR-002 Estrutura da solução e dependências]], [[ADR-003 Casos de uso, Result pattern e CQRS leve]]).
-> Situação: **desenhada, ainda não implementada**. Ver [[Implementação do Catálogo de Produtos]].
+> Situação: **implementada** pelo 03-dotnet-specialist em 2026-10-16 (Domain, Application, Infrastructure e API; os projetos de teste ainda não existem). Ver [[Implementação do Catálogo de Produtos]]. Endpoints: [[API de Categorias]], [[API de Produtos]]. Banco: [[Modelo de Dados do Catálogo]].
 
 API REST `/api/v1` em .NET 10 para Categoria e Produto, seguindo Clean Architecture. O projeto é greenfield.
 
@@ -23,7 +23,9 @@ API REST `/api/v1` em .NET 10 para Categoria e Produto, seguindo Clean Architect
 | `src/Tests/Catalogo.UnitTests` | testes unitários | Domain, Application |
 | `src/Tests/Catalogo.IntegrationTests` | testes de integração | Api |
 
-Na raiz ficam a solução `Catalogo.slnx`, `Directory.Build.props`, `Directory.Packages.props` (CPM) e `global.json`.
+Na raiz ficam a solução `Catalogo.slnx`, `Directory.Build.props`, `Directory.Packages.props` (CPM com pinning transitivo), `global.json` e `nuget.config` (só nuget.org, com source mapping).
+
+Versões fixadas: FluentValidation 12.2.0, EF Core SqlServer/Design 10.0.13, JwtBearer e OpenApi 10.0.13, `Microsoft.Extensions.DependencyInjection.Abstractions` 10.0.13. `System.Security.Cryptography.Pkcs` está fixado em 10.0.13 por pinning transitivo, porque o `Microsoft.Data.SqlClient` 6.1.7 traz a 9.0.11, que tem as vulnerabilidades GHSA-2fmv-rv2c-59x7 e GHSA-846f-f764-76mx.
 
 ## Padrões
 

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <RootNamespace>Catalogo.Api</RootNamespace>
+    <AssemblyName>Catalogo.Api</AssemblyName>
+    <UserSecretsId>catalogo-api-7c1e2f0a-5b3d-4e8a-9f61-2d4b8c9e0a17</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Catalogo.Application.csproj" />
+    <ProjectReference Include="..\Infrastructure\Catalogo.Infrastructure.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+  </ItemGroup>
+</Project>

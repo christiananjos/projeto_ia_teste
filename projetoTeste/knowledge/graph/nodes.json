@@ -1,5 +1,23 @@
 [
   {
+    "id": "04 - APIs/API de Categorias",
+    "title": "API de Categorias",
+    "path": "04 - APIs/API de Categorias.md",
+    "domain": "04 - APIs"
+  },
+  {
+    "id": "04 - APIs/API de Produtos",
+    "title": "API de Produtos",
+    "path": "04 - APIs/API de Produtos.md",
+    "domain": "04 - APIs"
+  },
+  {
+    "id": "05 - Banco de Dados/Modelo de Dados do Catálogo",
+    "title": "Modelo de Dados do Catálogo",
+    "path": "05 - Banco de Dados/Modelo de Dados do Catálogo.md",
+    "domain": "05 - Banco de Dados"
+  },
+  {
     "id": "06 - Arquitetura/Arquitetura da Solução",
     "title": "Arquitetura da Solução",
     "path": "06 - Arquitetura/Arquitetura da Solução.md",

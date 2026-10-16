@@ -1,6 +1,13 @@
 # Index do Knowledge Vault
 
-> Fonte: índice mantido pelos agentes do pipeline SDD. Criado pelo 02-architect-sdd em 2026-10-16. A Parte A do Analyst foi pulada porque `docs/raw/` estava vazia, por isso ainda não há notas em 00 a 05.
+> Fonte: índice mantido pelos agentes do pipeline SDD. Criado pelo 02-architect-sdd em 2026-10-16; notas de 04 e 05 criadas pelo 03-dotnet-specialist em 2026-10-16. A Parte A do Analyst foi pulada porque `docs/raw/` estava vazia, por isso ainda não há notas em 00 a 03.
+
+## 04 - APIs
+- [[API de Categorias]]
+- [[API de Produtos]]
+
+## 05 - Banco de Dados
+- [[Modelo de Dados do Catálogo]]
 
 ## 06 - Arquitetura
 - [[Arquitetura da Solução]]

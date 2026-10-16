@@ -1,35 +1,32 @@
 ---
 tipo: arquitetura
-status: planejado
+status: implementado
 data: 2026-10-16
 tags: [ef-core, sql-server, persistencia]
 ---
 
 # Persistência EF Core
 
-> Fonte: docs/SPEC.md (Modelo de Dados, Índices). Decisões do 02-architect-sdd em 2026-10-16.
-> Situação: **planejada, ainda não implementada**. Banco: [[SQL Server]].
+> Fonte: docs/SPEC.md (Modelo de Dados, Índices). Decisões do 02-architect-sdd em 2026-10-16, implementadas pelo 03-dotnet-specialist em 2026-10-16 em `src/Infrastructure/`.
+> Banco: [[SQL Server]]. Tabelas, colunas e índices: [[Modelo de Dados do Catálogo]].
 
-## Tabelas
+## Componentes
 
-- `Categorias`: `Id uniqueidentifier` PK, `Nome nvarchar(100)` com collation `Latin1_General_100_CI_AS`, `Descricao nvarchar(500) NULL`, `Ativa bit`, `DataCriacao` e `DataAtualizacao` em `datetime2`.
-- `Produtos`: `Id` PK, `CategoriaId` (FK `FK_Produtos_Categorias_CategoriaId`, **Restrict**), `Nome nvarchar(150)` CI_AS, `Sku nvarchar(40)` CI_AS (conversão do VO `Sku`), `Descricao nvarchar(1000) NULL`, `Preco decimal(18,2)`, `Ativo bit`, `DataCriacao`, `DataAtualizacao`, `DataRemocao NULL`.
-
-## Índices
-
-Os nomes são fixos porque a tradução de erros depende deles.
-
-- `UX_Categorias_Nome`: único.
-- `UX_Produtos_Sku`: único, filtrado por `[DataRemocao] IS NULL`.
-- `UX_Produtos_CategoriaId_Nome`: único, filtrado por `[DataRemocao] IS NULL`.
-
-Motivo: [[ADR-008 Unicidade case-insensitive via collation]].
+- `Persistencia/CatalogoDbContext.cs`: `DbSet` de `Categorias` e `Produtos`, implementa `IUnitOfWork.SalvarAlteracoesAsync`. Schema padrão `dbo`.
+- `Persistencia/Configuracoes/`: `CategoriaConfiguration` e `ProdutoConfiguration` (collation, índices filtrados, FK Restrict sem navegação, query filter).
+- `Persistencia/Conversores/UtcDateTimeConverter.cs`: aplicado a `DateTime` e `DateTime?` via `ConfigureConventions`.
+- `Persistencia/TradutorErrosSql.cs` e `NomesBanco.cs`: tradução de erros SQL e nomes fixos de índices/FK.
+- `Persistencia/CatalogoDbContextFactory.cs`: factory de design-time para `dotnet ef`.
+- `Repositorios/` (escrita, rastreado) e `Consultas/` (leitura, `AsNoTracking` com projeção para DTO).
+- `DependencyInjection.AddInfrastructure(IConfiguration)`: `DbContext` scoped, `IUnitOfWork` resolve o mesmo contexto.
 
 ## Comportamentos
 
-- Produto tem um global query filter `DataRemocao == null` ([[ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor]]).
-- Todo `DateTime` passa por um conversor UTC (BR-007).
-- Erros SQL 2601 e 2627 viram `ConflitoPersistenciaException(Unicidade)`. Erro 547 vira `ConflitoPersistenciaException(Referencia)`.
-- A remoção de categoria roda numa transação com `ExecuteDelete`: primeiro os produtos já removidos, depois a categoria ([[ADR-001 Remoção de categoria com produtos removidos]]).
-- A migration `Inicial` fica versionada. A API não aplica migrations no startup.
-- A connection string `ConnectionStrings:Catalogo` vem só de user-secrets ou de variável de ambiente.
+- Produto tem um global query filter `DataRemocao == null` ([[ADR-015 Exclusão lógica, UUID v7 e datas pelo servidor]]). Só a exclusão física da ADR-001 usa `IgnoreQueryFilters()`.
+- Todo `DateTime` passa pelo conversor UTC: grava em UTC e lê com `Kind = Utc`, então a API serializa com `Z` (BR-007).
+- Erros SQL 2601 e 2627 viram `ConflitoPersistenciaException(Unicidade)`; 547 vira `ConflitoPersistenciaException(Referencia)`. A restrição é identificada procurando os nomes conhecidos na mensagem (funciona mesmo com mensagem localizada pelo servidor), com fallback para o nome entre aspas.
+- A remoção de categoria roda dentro de `CreateExecutionStrategy().ExecuteAsync` + transação, com `ExecuteDelete`: primeiro os produtos já removidos, depois a categoria. FK 547 → rollback e `ConflitoPersistenciaException(Referencia)` ([[ADR-001 Remoção de categoria com produtos removidos]]).
+- O filtro `nome` da listagem usa `string.Contains`, que o EF 10 traduz para `LIKE @p ESCAPE N'\'` com `%`, `_` e `[` escapados (conferido com `ToQueryString`).
+- `ExisteSkuAsync` compara pelo value object (`p.Sku == Sku.Criar(sku)`); o conversor transforma o parâmetro em `nvarchar(40)` e a collation CI faz `tec-001` colidir com `TEC-001`.
+- A connection string `ConnectionStrings:Catalogo` é lida na criação do contexto (permite que os testes a substituam); se faltar, a primeira requisição que usa o banco falha com mensagem explicando user-secrets / `ConnectionStrings__Catalogo`. `UseSqlServer(..., EnableRetryOnFailure())`.
+- A API não aplica migrations no startup.
